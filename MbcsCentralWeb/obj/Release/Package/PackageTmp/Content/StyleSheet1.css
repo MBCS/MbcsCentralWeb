@@ -1,0 +1,77 @@
+﻿body {
+}
+
+.mbcscentral {
+	font-family: 'Stencil Std';
+	font-size: 28px;
+	font-style: normal;
+	color:lightblue;
+	text-align: left;
+    margin-top:1px;
+    position:relative;
+}
+
+.mbcscentral-box {
+	font-family: 'Stencil Std';
+	font-size: 48px;
+	font-style: normal;
+	color: #0000FF;
+	text-align: center;
+	background-color: #99CCFF;
+	border-style: double;
+	border-width: medium;
+	position: relative;
+}
+
+.banner-text {
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+    margin-top:13px;
+    margin-left:8px;
+    margin-right:50px;
+}
+
+.sidebar-text-h1 {
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+}
+
+.sidebar-text-normal {
+    font-size:14px;
+    color:white
+}
+.mainmenu
+{
+	margin:auto;
+	width:400px;
+	}
+
+.menuitem
+{
+	border-style: solid;
+}
+
+.wrapper{
+    margin-top:150px;
+    width:900px
+}
+.left-panel{
+    float: left;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.middle-panel{
+    float:right;
+    width:700px;
+    padding:10px
+}
+
+.product {
+    text-align:left;
+    margin:5px
+}
