@@ -166,6 +166,7 @@
     <Content Include="Demonstration.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\Ledger.bmp" />
+    <Content Include="Images\MbcsCentralBannerr.jpg" />
     <Content Include="Images\winpm_raw_elipse.gif" />
     <Content Include="MbcsCentralBanner.jpg" />
     <Content Include="packages.config" />
