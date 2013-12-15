@@ -55,7 +55,8 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/Demonstration">Demonstration</a></li>
+                        <li><a runat="server" href="~/Demonstration">MbcsCentral Demo</a></li>
+                        <li><a runat="server" href="http://www.bartmon.com">Our Main Site</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                     </ul>
@@ -97,13 +98,13 @@
                 </div>
           </div>
             <div class="middle-panel">
-                <!-- <div class="body-content"> -->
+                <div class="body-content">
                     <asp:ContentPlaceHolder ID="MainContent" runat="server">
                     </asp:ContentPlaceHolder>
-                        <footer style="margin-left:20px">
+                </div>
+                    <footer style="margin-left:20px; margin-top:50px">
                         <p>&copy; <%: DateTime.Now.Year %> - Michael Bartmon Computer Services LLC</p>
                     </footer>
-                <!-- </div>  -->
             </div>
         </div>
    </form>

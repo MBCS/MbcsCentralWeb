@@ -23,6 +23,18 @@
 	position: relative;
 }
 
+#mbcscentral-box-small a {
+	font-family: 'Stencil Std';
+	font-size: 14px;
+	font-style: normal;
+	color: black;
+	text-align: center;
+	background-color: #99CCFF;
+	border-style: solid;
+	border-width: medium;
+	position: relative;
+}
+
 .banner-text {
     font-size:16px;
     font-weight:bold;
