@@ -177,6 +177,7 @@
     <Content Include="WebForm1.aspx" />
     <Content Include="WinGlProduct.aspx" />
     <Content Include="WinPmProduct.aspx" />
+    <None Include="Properties\PublishProfiles\MbcsCentral HTTP.pubxml" />
     <None Include="Properties\PublishProfiles\MbcsCentral.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
