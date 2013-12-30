@@ -14,6 +14,11 @@
                     </td>
                 </tr>
                 <tr>
+                    <td style="color:darkblue">
+                        You must be vieiwng this page in Internet Explorer.
+                    </td>
+                </tr>
+                <tr>
                     <td style="text-align:left">
                         <i>Remote Desktop web page:</i>
                         <ul>

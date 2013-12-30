@@ -55,7 +55,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/Demonstration">Demo</a></li>
+                        <li><a runat="server" href="~/Demonstration.aspx">Demo</a></li>
                         <li><a runat="server" href="http://www.bartmon.com">Our Main Site</a></li>
                         <li><a runat="server" target="_blank" href="http://mbartmon.com/servicedesk/customer#mbcscen">Help Desk</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
@@ -81,23 +81,9 @@
             </div>
         </div>
         <div class="wrapper" style="margin-top:50px">
-            <div class="left-panel navbar-inverse">
-                <div class="sidebar-text-h1">
-                    The MBCS Suite
-                </div>
-                <hr style="border-top: 1px solid white; margin-top: 2px; margin-bottom: 2px; height: 1px;" />
-                <div class="sidebar-text-normal">
-                    <a href="WinPmProduct.aspx">WinPM</a><br /> <div style="font-size:11px">Tenant Accounts Receivable</div>
-                </div>
-                <hr style="border-top: 1px solid white; margin-top: 2px; margin-bottom: 2px; height: 1px;" />
-               <div class="sidebar-text-normal">
-                    <a href="WinGlProduct.aspx">WinGL</a><br /> <div style="font-size:11px">General Ledger & Payables</div>
-                </div>
-                <hr style="border-top: 1px solid white; margin-top: 2px; margin-bottom: 2px; height: 1px;" />
-                 <div class="sidebar-text-normal">
-                    WinDOC<br /> <div style="font-size:11px">Document Scanning & Management</div>
-                </div>
-          </div>
+            <asp:ContentPlaceHolder ID="LeftPanel" runat="server">
+
+            </asp:ContentPlaceHolder>
             <div class="middle-panel">
                 <div class="body-content">
                     <asp:ContentPlaceHolder ID="MainContent" runat="server">

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="www.mbcscentral.com" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\mike\\Source\\Workspaces\\Workspace\\MbcsCentralWeb\\MbcsCentralWeb\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\mike\\Source\\Workspaces\\Workspace\\MbcsCentralWeb\\MbcsCentralWeb\\obj\\Release\\Package\\PackageTmp$" />
+  <parameter name="IIS Web Application Name" description="" value="mbcscentral.com" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\workfiles\\MbcsCentralWeb\\MbcsCentralWeb\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\workfiles\\MbcsCentralWeb\\MbcsCentralWeb\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
   <parameter name="DefaultConnection-Web.config Connection String" description="" value="Server=tcp:eopvf6vltx.database.windows.net,1433;Database=MbcsMain;Integrated Security=False;User ID=mbartmon@eopvf6vltx;Password=Vietnam65;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\mike\\Source\\Workspaces\\Workspace\\MbcsCentralWeb\\MbcsCentralWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\workfiles\\MbcsCentralWeb\\MbcsCentralWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
 </parameters>

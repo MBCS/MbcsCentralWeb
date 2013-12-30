@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Tutorial.master.cs" Inherits="MbcsCentralWeb.Tutorial.Tutorial" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="LeftPanel" runat="server">
+    <div class="left-panel navbar-inverse">
+        <div class="sidebar-text-h1">
+            Contents
+        </div>
+        <div class="sidebar-text-normal" style="font-size:11px; color:white; text-align:left">
+            <ul>
+                <li><a href="ProgramStart.aspx">Starting the program</a></li>
+                    <ul>
+                        <li><a href="ProgramStart.aspx">Page 1</a></li>
+                        <li><a href="ProgramStart2.aspx">Page 2</a></li>
+                        <li><a href="ProgramStart3.aspx">Page 3</a></li>
+                        <li><a href="ProgramStart4.aspx">Page 4</a></li>
+                        <li><a href="ProgramStart5.aspx">Page 5</a></li>
+                    </ul>
+                <li><a href="ProgramNavigation.aspx">Finding your way</a></li>
+                <ul>
+                    <li><a href="ProgramNavigation.aspx">Page 1</a></li>
+                </ul>
+            </ul>
+        </div>
+     </div>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="mbcscentral" style="text-align:center">
+        MbcsCentral Demo Tutorial
+    </div>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        <div class="content-text-border4">
+           <asp:Button style="float:left; margin-top:-21px" ID="PreviousTop" runat="server" Text="Previous" />
+           <asp:Button style="float:right; margin-top:-21px" ID="NextTop" runat="server" CausesValidation="false" Text="NEXT" />
+           <div class="general-h1">
+                <asp:ContentPlaceHolder ID="UpperTitle" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>       
+            <hr/>
+            <asp:ContentPlaceHolder ID="BoxContent" runat="server">
+
+            </asp:ContentPlaceHolder>
+            <asp:Button style="float:left" ID="PreviousBottom" Text="Previous" runat="server" />
+            <asp:Button style="float:right;" ID="NextBottom" runat="server" CausesValidation="false" Text="NEXT" />
+
+                   </div>    
+    </asp:ContentPlaceHolder>
+</asp:Content>

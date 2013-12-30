@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WinPmProduct.aspx.cs" Inherits="MbcsCentralWeb.WinPmProduct" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TopLevel.Master" AutoEventWireup="true" CodeBehind="WinPmProduct.aspx.cs" Inherits="MbcsCentralWeb.WinPmProduct" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table dir="ltr" border="0" style="width:75%; text-align:center">
     <tr>

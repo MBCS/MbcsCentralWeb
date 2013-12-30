@@ -165,8 +165,19 @@
     <Content Include="Content\Site.css" />
     <Content Include="Demonstration.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\DefaultPage.png" />
     <Content Include="Images\Ledger.bmp" />
+    <Content Include="Images\LoginPage.png" />
     <Content Include="Images\MbcsCentralBannerr.jpg" />
+    <Content Include="Images\MbcsCentralLogin.png" />
+    <Content Include="Images\MbcsCentralMenu.png" />
+    <Content Include="Images\NavigateBackwards_6270.ico" />
+    <Content Include="Images\NavigateForward_6271.ico" />
+    <Content Include="Images\OwnersAndBuildings.png" />
+    <Content Include="Images\RemoteAppResource.png" />
+    <Content Include="Images\RemoteAppSplash.png" />
+    <Content Include="Images\WindowSecurity.png" />
+    <Content Include="Images\WinPmMenuTopLevel.png" />
     <Content Include="Images\winpm_raw_elipse.gif" />
     <Content Include="MbcsCentralBanner.jpg" />
     <Content Include="packages.config" />
@@ -174,6 +185,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="Tutorial\Introduction.aspx" />
+    <Content Include="Tutorial\ProgramNavigation.aspx" />
+    <Content Include="Tutorial\ProgramStart.aspx" />
+    <Content Include="Tutorial\ProgramStart2.aspx" />
+    <Content Include="Tutorial\ProgramStart3.aspx" />
+    <Content Include="Tutorial\ProgramStart4.aspx" />
+    <Content Include="Tutorial\ProgramStart5.aspx" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WinGlProduct.aspx" />
     <Content Include="WinPmProduct.aspx" />
@@ -220,6 +238,8 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Site.Mobile.Master" />
+    <Content Include="TopLevel.master" />
+    <Content Include="Tutorial\Tutorial.master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -323,6 +343,70 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="TopLevel.master.cs">
+      <DependentUpon>TopLevel.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TopLevel.master.designer.cs">
+      <DependentUpon>TopLevel.master</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\Introduction.aspx.cs">
+      <DependentUpon>Introduction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\Introduction.aspx.designer.cs">
+      <DependentUpon>Introduction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\ProgramNavigation.aspx.cs">
+      <DependentUpon>ProgramNavigation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\ProgramNavigation.aspx.designer.cs">
+      <DependentUpon>ProgramNavigation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\Pages.cs" />
+    <Compile Include="Tutorial\ProgramStart.aspx.cs">
+      <DependentUpon>ProgramStart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\ProgramStart.aspx.designer.cs">
+      <DependentUpon>ProgramStart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\ProgramStart2.aspx.cs">
+      <DependentUpon>ProgramStart2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\ProgramStart2.aspx.designer.cs">
+      <DependentUpon>ProgramStart2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\ProgramStart3.aspx.cs">
+      <DependentUpon>ProgramStart3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\ProgramStart3.aspx.designer.cs">
+      <DependentUpon>ProgramStart3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\ProgramStart4.aspx.cs">
+      <DependentUpon>ProgramStart4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\ProgramStart4.aspx.designer.cs">
+      <DependentUpon>ProgramStart4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\ProgramStart5.aspx.cs">
+      <DependentUpon>ProgramStart5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\ProgramStart5.aspx.designer.cs">
+      <DependentUpon>ProgramStart5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\Tutorial.master.cs">
+      <DependentUpon>Tutorial.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\Tutorial.master.designer.cs">
+      <DependentUpon>Tutorial.master</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

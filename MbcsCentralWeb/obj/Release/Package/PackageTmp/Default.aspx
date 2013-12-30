@@ -30,7 +30,9 @@
             <div style="font-family:'Arial Rounded MT'; color:red; font-size:18px; text-align:center;">
 
                 &nbsp;Check back for the soon to be available Beta Preview of the Cloud Edition of the <b>MbcsCentral</b> WinPM application
-                or REGISTER now to be notified as soon as it is available.
+                or REGISTER now to be notified as soon as it is available.<br />
+                <br/>
+                You can see a full-featured demonstration by clicking on the DEMO option on the menu.
             </div>
         </div>
     </div>
