@@ -1,0 +1,6 @@
+/*.sync.db
+/*.suo
+/*.log
+MbcsCentralWeb/obj/
+MbcsCentralWeb/bin/
+packages/
