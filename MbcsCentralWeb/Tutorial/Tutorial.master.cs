@@ -16,10 +16,6 @@ namespace MbcsCentralWeb.Tutorial
 
         protected void Page_Init(object sender, EventArgs e)
         {
-            PreviousTop.Click += Previous_Click;
-            PreviousBottom.Click += Previous_Click;
-            NextTop.Click += Next_Click;
-            NextBottom.Click += Next_Click;
         }
         protected void Page_Load(object sender, EventArgs e)
         {

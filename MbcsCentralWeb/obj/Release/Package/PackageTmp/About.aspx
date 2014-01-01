@@ -1,4 +1,4 @@
-﻿<%@ Page Title="About Us" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="MbcsCentralWeb.About" %>
+﻿<%@ Page Title="About Us" Language="C#" MasterPageFile="~/TopLevel.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="MbcsCentralWeb.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>

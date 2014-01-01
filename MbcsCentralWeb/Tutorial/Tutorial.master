@@ -17,6 +17,8 @@
                 <li><a href="ProgramNavigation.aspx">Finding your way</a></li>
                 <ul>
                     <li><a href="ProgramNavigation.aspx">Page 1</a></li>
+                    <li><a href="ProgramNavigation2.aspx">Page 2</a></li>
+                    <li><a href="ProgramNavigation3.aspx">Page 3</a></li>
                 </ul>
             </ul>
         </div>
@@ -28,8 +30,8 @@
     </div>
     <asp:ContentPlaceHolder ID="MainContent" runat="server">
         <div class="content-text-border4">
-           <asp:Button style="float:left; margin-top:-21px" ID="PreviousTop" runat="server" Text="Previous" />
-           <asp:Button style="float:right; margin-top:-21px" ID="NextTop" runat="server" CausesValidation="false" Text="NEXT" />
+           <asp:Button style="float:left; margin-top:-21px" ID="PreviousTop" runat="server" Text="Previous" EnableViewState="false" OnClick="Previous_Click" />
+           <asp:Button style="float:right; margin-top:-21px" ID="NextTop" runat="server" CausesValidation="false" Text="NEXT" EnableViewState="false" OnClick="Next_Click" />
            <div class="general-h1">
                 <asp:ContentPlaceHolder ID="UpperTitle" runat="server">
                 </asp:ContentPlaceHolder>
@@ -38,9 +40,8 @@
             <asp:ContentPlaceHolder ID="BoxContent" runat="server">
 
             </asp:ContentPlaceHolder>
-            <asp:Button style="float:left" ID="PreviousBottom" Text="Previous" runat="server" />
-            <asp:Button style="float:right;" ID="NextBottom" runat="server" CausesValidation="false" Text="NEXT" />
-
-                   </div>    
+            <asp:Button style="float:left" ID="PreviousBottom" Text="Previous" runat="server" EnableViewState="false" OnClick="Previous_Click" />
+            <asp:Button style="float:right;" ID="NextBottom" runat="server" CausesValidation="false" Text="NEXT" EnableViewState="false" OnClick="Next_Click" />
+        </div>    
     </asp:ContentPlaceHolder>
 </asp:Content>

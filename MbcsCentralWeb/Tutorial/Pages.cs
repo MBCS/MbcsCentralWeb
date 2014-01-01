@@ -20,6 +20,8 @@ namespace MbcsCentralWeb.Tutorial
             ByNameDict.Add("ProgramStart4.aspx", 4);
             ByNameDict.Add("ProgramStart5.aspx", 5);
             ByNameDict.Add("ProgramNavigation.aspx", 6);
+            ByNameDict.Add("ProgramNavigation2.aspx", 7);
+            ByNameDict.Add("ProgramNavigation3.aspx", 8);
 
             ByValueDict = new Dictionary<int,string>();
             ByValueDict.Add(0, "Introduction.aspx");
@@ -29,6 +31,8 @@ namespace MbcsCentralWeb.Tutorial
             ByValueDict.Add(4, "ProgramStart4.aspx");
             ByValueDict.Add(5, "ProgramStart5.aspx");
             ByValueDict.Add(6, "ProgramNavigation.aspx");
+            ByValueDict.Add(7, "ProgramNavigation2.aspx");
+            ByValueDict.Add(8, "ProgramNavigation3.aspx");
         }
 
         public void AddByName(string key, int value)

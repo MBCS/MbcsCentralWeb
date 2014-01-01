@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WinGlProduct.aspx.cs" Inherits="MbcsCentralWeb.WinGlProduct" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TopLevel.Master" AutoEventWireup="true" CodeBehind="WinGlProduct.aspx.cs" Inherits="MbcsCentralWeb.WinGlProduct" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table width="138" border="0" cellspacing="0" cellpadding="0">
     <tr>

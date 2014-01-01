@@ -1,8 +1,8 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MbcsCentralWeb._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/TopLevel.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MbcsCentralWeb._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-     <div style="color:blue; font-size:16px; border:outset; padding:5px">                               
-        <div style="font-size:24px; color:#0397DE; text-align:center;"><b>The Property Management System has moved to the Web!</b></div>
+     <div class="content-text-border">                               
+        <div class="general-h1"><b>The Property Management System has moved to the Web!</b></div>
         <br />
         &nbsp;What you can do with <b>MbcsCentral</b>:
         <ul>
