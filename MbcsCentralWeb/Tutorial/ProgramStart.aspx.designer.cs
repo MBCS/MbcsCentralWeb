@@ -11,5 +11,17 @@ namespace MbcsCentralWeb.Tutorial {
     
     
     public partial class ProgramStart {
+        
+        /// <summary>
+        /// Master property.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated property.
+        /// </remarks>
+        public new MbcsCentralWeb.Tutorial.Tutorial Master {
+            get {
+                return ((MbcsCentralWeb.Tutorial.Tutorial)(base.Master));
+            }
+        }
     }
 }

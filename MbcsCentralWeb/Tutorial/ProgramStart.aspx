@@ -1,8 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Tutorial/Tutorial.master" AutoEventWireup="true" CodeBehind="ProgramStart.aspx.cs" Inherits="MbcsCentralWeb.Tutorial.ProgramStart" %>
-    <asp:Content ID="UpperTitle" ContentPlaceHolderID="UpperTitle" runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Tutorial/Tutorial.master" CodeBehind="ProgramStart.aspx.cs" Inherits="MbcsCentralWeb.Tutorial.ProgramStart" %>
+<%@ MasterType VirtualPath="~/Tutorial/Tutorial.master" %>
+   <asp:Content ID="UpperTitle" ContentPlaceHolderID="UpperTitle" runat="server">
         Starting The Program - page 1
     </asp:Content>
     <asp:Content ID="BoxContent" ContentPlaceHolderID="BoxContent" runat="server">
+        <a href="Introduction.aspx" style="float:left; margin-top:-21px; border:solid 3px; background-color:aliceblue" runat="server">PREVIOUS</a>
+        <a href="ProgramStart2.aspx" style="float:right; margin-top:-21px; border:solid 2px; background-color:aliceblue" runat="server">NEXT</a> 
+        <br />
         <ul>
             <li>You can start the MbcsCentral Demo by either:
                 <ul>
@@ -24,4 +28,7 @@
                 </ul>
             </li>
         </ul>
-    </asp:Content>
+        <br />
+        <a href="Introduction.aspx" style="float:left; border:solid 3px; background-color:aliceblue" runat="server">PREVIOUS</a>
+        <a href="ProgramStart2.aspx" style="float:right; border:solid 2px; background-color:aliceblue" runat="server">NEXT</a> 
+  </asp:Content>

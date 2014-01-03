@@ -1,8 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Tutorial/Tutorial.Master" AutoEventWireup="true" CodeBehind="Introduction.aspx.cs" Inherits="MbcsCentralWeb.Tutorial.Introduction" %>
+<%@ MasterType VirtualPath="~/Tutorial/Tutorial.master" %>
     <asp:Content ID="UpperTitle" ContentPlaceHolderID="UpperTitle" runat="server">
         Introduction
     </asp:Content>
     <asp:Content ID="BoxContent" ContentPlaceHolderID="BoxContent" runat="server">
+        <a href="ProgramStart.aspx" style="float:right; margin-top:-21px; border:solid 2px; background-color:aliceblue" runat="server">NEXT</a> 
+        <br /><br />
         This demo will introduce you to the MbcsCentral Tenant Accounts Receivable applicaton (WinPM).
         It is the actual application with the ability to make changes disabled. It will give you the 
         opportunity to examine all of the functionality that it makes available.
@@ -49,4 +52,6 @@
                 <td style="text-align:left">Prompting to logon to one or more of these pages may not be necessary after the first time that you logon as long as you do so from the same computer.</td>
             </tr>
         </table>
-    </asp:Content>
+        <br /><br />
+         <a href="ProgramStart.aspx" style="float:right; border:solid 2px; background-color:aliceblue" runat="server">NEXT</a> 
+   </asp:Content>

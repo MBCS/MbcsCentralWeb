@@ -11,12 +11,7 @@ namespace MbcsCentralWeb.Tutorial
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-        }
-
-        protected void NextPage_Click(object sender, EventArgs e)
-        {
-            Server.Transfer("ProgramStart2.aspx");
+            //Master.Link = "ProgramStart2.aspx";
         }
     }
 }

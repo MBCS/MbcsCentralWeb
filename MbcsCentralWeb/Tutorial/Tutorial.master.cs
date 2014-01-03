@@ -9,6 +9,12 @@ namespace MbcsCentralWeb.Tutorial
 {
     public partial class Tutorial : System.Web.UI.MasterPage
     {
+        protected string link;
+        public string Link
+        {
+            get { return Link; }
+            set { link = value; }
+        }
         string myPageUri;
         Pages pages = new Pages();
 

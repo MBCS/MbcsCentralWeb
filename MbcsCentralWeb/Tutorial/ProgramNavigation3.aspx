@@ -3,6 +3,8 @@
     Finding Your Way - page 3
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BoxContent" runat="server">
+    <a href="ProgramNavigation2.aspx" style="float:left; margin-top:-21px; border:solid 3px; background-color:aliceblue" runat="server">PREVIOUS</a>
+    <a href="ProgramNavigation3.aspx" style="float:right; margin-top:-21px; border:solid 2px; background-color:aliceblue" runat="server">NEXT</a> 
     <img style="width:450px" src="../Images/WinPmTenant.png" />
     <br /><br />
     This screen shows a summary of a tenant's account as well as information about leases, and legal 
@@ -14,4 +16,6 @@
     <br /><br />
     Take some time to explore. 
     <br /><br /> 
+    <a href="ProgramNavigation2.aspx" style="float:left; border:solid 3px; background-color:aliceblue" runat="server">PREVIOUS</a>
+    <a href="ProgramNavigation3.aspx" style="float:right; border:solid 2px; background-color:aliceblue" runat="server">NEXT</a> 
 </asp:Content>

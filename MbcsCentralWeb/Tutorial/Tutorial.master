@@ -30,18 +30,21 @@
     </div>
     <asp:ContentPlaceHolder ID="MainContent" runat="server">
         <div class="content-text-border4">
-           <asp:Button style="float:left; margin-top:-21px" ID="PreviousTop" runat="server" Text="Previous" EnableViewState="false" OnClick="Previous_Click" />
-           <asp:Button style="float:right; margin-top:-21px" ID="NextTop" runat="server" CausesValidation="false" Text="NEXT" EnableViewState="false" OnClick="Next_Click" />
-           <div class="general-h1">
+            <!-- 
+                <asp:Button style="float:left; margin-top:-21px" ID="PreviousTop" runat="server" Text="Previous" EnableViewState="false" OnClick="Previous_Click" />
+                <asp:Button style="float:right; margin-top:-21px" ID="NextTop" runat="server" CausesValidation="false" Text="NEXT" EnableViewState="false" OnClick="Next_Click" />
+            -->
+            <div class="general-h1">
                 <asp:ContentPlaceHolder ID="UpperTitle" runat="server">
                 </asp:ContentPlaceHolder>
-            </div>       
+            </div>
             <hr/>
             <asp:ContentPlaceHolder ID="BoxContent" runat="server">
-
             </asp:ContentPlaceHolder>
+            <!--
             <asp:Button style="float:left" ID="PreviousBottom" Text="Previous" runat="server" EnableViewState="false" OnClick="Previous_Click" />
             <asp:Button style="float:right;" ID="NextBottom" runat="server" CausesValidation="false" Text="NEXT" EnableViewState="false" OnClick="Next_Click" />
-        </div>    
+            -->
+        </div>
     </asp:ContentPlaceHolder>
 </asp:Content>

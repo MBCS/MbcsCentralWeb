@@ -3,6 +3,9 @@
     Finding Your Way - page 1
 </asp:Content>
 <asp:Content ID="BoxContent" ContentPlaceHolderID="BoxContent" runat="server">
+    <a href="ProgramStart5.aspx" style="float:left; margin-top:-21px; border:solid 3px; background-color:aliceblue" runat="server">PREVIOUS</a>
+    <a href="ProgramNavigation2.aspx" style="float:right; margin-top:-21px; border:solid 2px; background-color:aliceblue" runat="server">NEXT</a> 
+    <br /><br />
     You are ready to do some exploring.  Click on the <u>WinPM</u> selection to dropdown its top level menu:
     <br /><br />
     <img style="height:300px; width:400px" src="../Images/WinPmMenuTopLevel.png" />
@@ -36,4 +39,6 @@
     between sessions, it simply means that another user of the Demo has done the same.  In live production each
     user's window positioning will remain constant.
     <br /><br />
+    <a href="ProgramStart5.aspx" style="float:left; border:solid 3px; background-color:aliceblue" runat="server">PREVIOUS</a>
+    <a href="ProgramNavigation2.aspx" style="float:right;border:solid 2px; background-color:aliceblue" runat="server">NEXT</a> 
 </asp:Content>
