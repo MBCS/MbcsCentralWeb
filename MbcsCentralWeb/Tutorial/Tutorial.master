@@ -8,17 +8,18 @@
             <ul>
                 <li><a href="ProgramStart.aspx">Starting the program</a></li>
                     <ul>
-                        <li><a href="ProgramStart.aspx">Page 1</a></li>
-                        <li><a href="ProgramStart2.aspx">Page 2</a></li>
-                        <li><a href="ProgramStart3.aspx">Page 3</a></li>
-                        <li><a href="ProgramStart4.aspx">Page 4</a></li>
-                        <li><a href="ProgramStart5.aspx">Page 5</a></li>
+                        <li><a href="ProgramStart.aspx">Access the Website</a></li>
+                        <li><a href="ProgramStart2.aspx">Start the Program</a></li>
+                        <li><a href="ProgramStart3.aspx">RemoteApp Configuration</a></li>
+                        <li><a href="ProgramStart4.aspx">RemoteApp Startup</a></li>
+                        <li><a href="ProgramStart5.aspx">MbcsCentral Login</a></li>
                     </ul>
                 <li><a href="ProgramNavigation.aspx">Finding your way</a></li>
                 <ul>
-                    <li><a href="ProgramNavigation.aspx">Page 1</a></li>
-                    <li><a href="ProgramNavigation2.aspx">Page 2</a></li>
-                    <li><a href="ProgramNavigation3.aspx">Page 3</a></li>
+                    <li><a href="ProgramNavigation.aspx">Owners and Buildings</a></li>
+                    <li><a href="ProgramNavigation2.aspx">Tenant List</a></li>
+                    <li><a href="ProgramNavigation3.aspx">Tenant Record</a></li>
+                    <li><a href="ProgramNavigation4.aspx">Payment Entry</a></li>
                 </ul>
             </ul>
         </div>

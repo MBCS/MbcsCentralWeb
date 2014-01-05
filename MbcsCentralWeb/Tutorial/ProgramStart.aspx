@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Tutorial/Tutorial.master" CodeBehind="ProgramStart.aspx.cs" Inherits="MbcsCentralWeb.Tutorial.ProgramStart" %>
 <%@ MasterType VirtualPath="~/Tutorial/Tutorial.master" %>
    <asp:Content ID="UpperTitle" ContentPlaceHolderID="UpperTitle" runat="server">
-        Starting The Program - page 1
+        Access the Website
     </asp:Content>
     <asp:Content ID="BoxContent" ContentPlaceHolderID="BoxContent" runat="server">
         <a href="Introduction.aspx" style="float:left; margin-top:-21px; border:solid 3px; background-color:aliceblue" runat="server">PREVIOUS</a>
@@ -16,7 +16,7 @@
             </li>
             <li>
                 You should then see the following page:<br /><br />
-                <img width="450" src="../Images/LoginPage.png" />
+                <img style="width:450px;height:350px" src="../Images/LoginPage.png" />
             </li>
         </ul>
         <ul>

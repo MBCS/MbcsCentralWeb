@@ -179,6 +179,7 @@
     <Content Include="Images\WindowSecurity.png" />
     <Content Include="Images\WinPmMenuTenants.png" />
     <Content Include="Images\WinPmMenuTopLevel.png" />
+    <Content Include="Images\WinPmPayentry.png" />
     <Content Include="Images\WinPmTenant.png" />
     <Content Include="Images\WinPmTenants.png" />
     <Content Include="Images\winpm_raw_elipse.gif" />
@@ -188,10 +189,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="Tutorial\InProgress.aspx" />
     <Content Include="Tutorial\Introduction.aspx" />
     <Content Include="Tutorial\ProgramNavigation.aspx" />
     <Content Include="Tutorial\ProgramNavigation2.aspx" />
     <Content Include="Tutorial\ProgramNavigation3.aspx" />
+    <Content Include="Tutorial\ProgramNavigation4.aspx" />
     <Content Include="Tutorial\ProgramStart.aspx" />
     <Content Include="Tutorial\ProgramStart2.aspx" />
     <Content Include="Tutorial\ProgramStart3.aspx" />
@@ -355,6 +358,13 @@
     <Compile Include="TopLevel.master.designer.cs">
       <DependentUpon>TopLevel.master</DependentUpon>
     </Compile>
+    <Compile Include="Tutorial\InProgress.aspx.cs">
+      <DependentUpon>InProgress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\InProgress.aspx.designer.cs">
+      <DependentUpon>InProgress.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Tutorial\Introduction.aspx.cs">
       <DependentUpon>Introduction.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -383,6 +393,13 @@
     </Compile>
     <Compile Include="Tutorial\ProgramNavigation3.aspx.designer.cs">
       <DependentUpon>ProgramNavigation3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\ProgramNavigation4.aspx.cs">
+      <DependentUpon>ProgramNavigation4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\ProgramNavigation4.aspx.designer.cs">
+      <DependentUpon>ProgramNavigation4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Tutorial\ProgramStart.aspx.cs">
       <DependentUpon>ProgramStart.aspx</DependentUpon>

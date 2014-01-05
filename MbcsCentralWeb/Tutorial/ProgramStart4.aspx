@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Tutorial/Tutorial.master" AutoEventWireup="true" CodeBehind="ProgramStart4.aspx.cs" Inherits="MbcsCentralWeb.Tutorial.ProgramStart4" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="UpperTitle" runat="server">
-    Starting The Program - page 4
+    RemoteApp Startup
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="BoxContent" runat="server">
     <a href="ProgramStart3.aspx" style="float:left; margin-top:-21px; border:solid 3px; background-color:aliceblue" runat="server">PREVIOUS</a>
