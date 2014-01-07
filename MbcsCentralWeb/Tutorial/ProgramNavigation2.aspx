@@ -15,7 +15,7 @@
     <br /><br />
     To display the <u> Working With Tenants List</u>
     <br /><br />
-    <img style="width:450px" src="../Images/WinPmTenants.png" />
+    <img style="width:600px; height:400px" src="../Images/WinPmTenants.png" />
     <br /><br />
     From here you can Edit and Add Tenant Records, examine the perpetual tenant charge and payment 
     history, unit maintenance and improvement records, and vacate apartments.

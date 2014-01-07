@@ -6,7 +6,7 @@
     <a href="ProgramNavigation2.aspx" style="float:left; margin-top:-21px; border:solid 3px; background-color:aliceblue" runat="server">PREVIOUS</a>
     <a href="ProgramNavigation4.aspx" style="float:right; margin-top:-21px; border:solid 2px; background-color:aliceblue" runat="server">NEXT</a> 
     <br />
-    <img style="width:450px" src="../Images/WinPmTenant.png" />
+    <img style="width:600px; height:400px" src="../Images/WinPmTenant.png" />
     <br /><br />
     This screen shows a summary of a tenant's account as well as information about leases, and legal 
     status.  From here you can drill down into account, tenant, and unit details.

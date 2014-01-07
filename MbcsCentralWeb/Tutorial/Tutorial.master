@@ -14,7 +14,7 @@
                         <li><a href="ProgramStart4.aspx">RemoteApp Startup</a></li>
                         <li><a href="ProgramStart5.aspx">MbcsCentral Login</a></li>
                     </ul>
-                <li><a href="ProgramNavigation.aspx">Finding your way</a></li>
+                <li><a href="ProgramNavigation.aspx">Exploring WinPM</a></li>
                 <ul>
                     <li><a href="ProgramNavigation.aspx">Owners and Buildings</a></li>
                     <li><a href="ProgramNavigation2.aspx">Tenant List</a></li>

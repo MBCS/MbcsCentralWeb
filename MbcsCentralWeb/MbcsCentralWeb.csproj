@@ -177,9 +177,14 @@
     <Content Include="Images\RemoteAppResource.png" />
     <Content Include="Images\RemoteAppSplash.png" />
     <Content Include="Images\WindowSecurity.png" />
+    <Content Include="Images\WinPmBatch.png" />
+    <Content Include="Images\WinPmHistory.png" />
+    <Content Include="Images\WinPmMaintenance.png" />
     <Content Include="Images\WinPmMenuTenants.png" />
     <Content Include="Images\WinPmMenuTopLevel.png" />
     <Content Include="Images\WinPmPayentry.png" />
+    <Content Include="Images\WinPmReports.png" />
+    <Content Include="Images\WinPmStatus.png" />
     <Content Include="Images\WinPmTenant.png" />
     <Content Include="Images\WinPmTenants.png" />
     <Content Include="Images\winpm_raw_elipse.gif" />
@@ -195,6 +200,7 @@
     <Content Include="Tutorial\ProgramNavigation2.aspx" />
     <Content Include="Tutorial\ProgramNavigation3.aspx" />
     <Content Include="Tutorial\ProgramNavigation4.aspx" />
+    <Content Include="Tutorial\ProgramNavigation5.aspx" />
     <Content Include="Tutorial\ProgramStart.aspx" />
     <Content Include="Tutorial\ProgramStart2.aspx" />
     <Content Include="Tutorial\ProgramStart3.aspx" />
@@ -400,6 +406,13 @@
     </Compile>
     <Compile Include="Tutorial\ProgramNavigation4.aspx.designer.cs">
       <DependentUpon>ProgramNavigation4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\ProgramNavigation5.aspx.cs">
+      <DependentUpon>ProgramNavigation5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\ProgramNavigation5.aspx.designer.cs">
+      <DependentUpon>ProgramNavigation5.aspx</DependentUpon>
     </Compile>
     <Compile Include="Tutorial\ProgramStart.aspx.cs">
       <DependentUpon>ProgramStart.aspx</DependentUpon>
