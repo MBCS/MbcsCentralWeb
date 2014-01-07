@@ -194,6 +194,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="Tutorial\ProgramNavigation6.aspx" />
     <Content Include="Tutorial\InProgress.aspx" />
     <Content Include="Tutorial\Introduction.aspx" />
     <Content Include="Tutorial\ProgramNavigation.aspx" />
@@ -201,6 +202,7 @@
     <Content Include="Tutorial\ProgramNavigation3.aspx" />
     <Content Include="Tutorial\ProgramNavigation4.aspx" />
     <Content Include="Tutorial\ProgramNavigation5.aspx" />
+    <Content Include="Tutorial\ProgramNavigation7.aspx" />
     <Content Include="Tutorial\ProgramStart.aspx" />
     <Content Include="Tutorial\ProgramStart2.aspx" />
     <Content Include="Tutorial\ProgramStart3.aspx" />
@@ -341,6 +343,13 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Tutorial\ProgramNavigation6.aspx.cs">
+      <DependentUpon>ProgramNavigation6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\ProgramNavigation6.aspx.designer.cs">
+      <DependentUpon>ProgramNavigation6.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -413,6 +422,13 @@
     </Compile>
     <Compile Include="Tutorial\ProgramNavigation5.aspx.designer.cs">
       <DependentUpon>ProgramNavigation5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial\ProgramNavigation7.aspx.cs">
+      <DependentUpon>ProgramNavigation7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial\ProgramNavigation7.aspx.designer.cs">
+      <DependentUpon>ProgramNavigation7.aspx</DependentUpon>
     </Compile>
     <Compile Include="Tutorial\ProgramStart.aspx.cs">
       <DependentUpon>ProgramStart.aspx</DependentUpon>

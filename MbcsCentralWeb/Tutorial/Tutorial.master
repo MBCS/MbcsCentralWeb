@@ -20,6 +20,9 @@
                     <li><a href="ProgramNavigation2.aspx">Tenant List</a></li>
                     <li><a href="ProgramNavigation3.aspx">Tenant Record</a></li>
                     <li><a href="ProgramNavigation4.aspx">Payment Entry</a></li>
+                    <li><a href="ProgramNavigation5.aspx">Batch Updates</a></li>
+                    <li><a href="ProgramNavigation6.aspx">Tenant History</a></li>
+                    <li><a href="ProgramNavigation7.aspx">Improvements and Maintenance</a></li>
                 </ul>
             </ul>
         </div>

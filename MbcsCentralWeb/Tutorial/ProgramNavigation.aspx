@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Tutorial/Tutorial.master" AutoEventWireup="true" CodeBehind="ProgramNavigation.aspx.cs" Inherits="MbcsCentralWeb.Tutorial.Navigation" %>
 <asp:Content ID="UpperTitle" ContentPlaceHolderID="UpperTitle" runat="server">
-    Finding Your Way 
+    Owners and Buildings  
 </asp:Content>
 <asp:Content ID="BoxContent" ContentPlaceHolderID="BoxContent" runat="server">
     <a href="ProgramStart5.aspx" style="float:left; margin-top:-21px; border:solid 3px; background-color:aliceblue" runat="server">PREVIOUS</a>
