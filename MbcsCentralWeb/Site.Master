@@ -58,7 +58,7 @@
                         <li><a runat="server" href="~/Demonstration.aspx">Demo</a></li>
                         <li><a href="Tutorial/Introduction.aspx">Tutorial</a></li>
                         <li><a runat="server" href="http://www.bartmon.com">Our Main Site</a></li>
-                        <li><a runat="server" target="_blank" href="http://mbartmon.com/servicedesk/customer#mbcscen">Help Desk</a></li>
+                        <li><a runat="server" target="_blank" href="http://mbartmon.com:8080/servicedesk/customer/mbcscen">Help Desk</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                     </ul>

@@ -4286,7 +4286,7 @@ ba  float: right;
   }
 }
 
-@media (min-width: 350px) {
+@media (min-width: 150px) {
   .navbar-left {
     float: left !important;
   }
