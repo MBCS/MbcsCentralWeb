@@ -333,13 +333,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201311191643113_InitialCreate.cs" />
-    <Compile Include="Migrations\201311191643113_InitialCreate.Designer.cs">
-      <DependentUpon>201311191643113_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201311191732468_EmailAddress.cs" />
-    <Compile Include="Migrations\201311191732468_EmailAddress.Designer.cs">
-      <DependentUpon>201311191732468_EmailAddress.cs</DependentUpon>
+    <Compile Include="Migrations\201401131825210_initial.cs" />
+    <Compile Include="Migrations\201401131825210_initial.Designer.cs">
+      <DependentUpon>201401131825210_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -505,11 +501,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201311191643113_InitialCreate.resx">
-      <DependentUpon>201311191643113_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201311191732468_EmailAddress.resx">
-      <DependentUpon>201311191732468_EmailAddress.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201401131825210_initial.resx">
+      <DependentUpon>201401131825210_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

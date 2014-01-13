@@ -3,7 +3,7 @@ namespace MbcsCentralWeb.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialCreate : DbMigration
+    public partial class initial : DbMigration
     {
         public override void Up()
         {
@@ -24,6 +24,8 @@ namespace MbcsCentralWeb.Migrations
                         UserName = c.String(),
                         PasswordHash = c.String(),
                         SecurityStamp = c.String(),
+                        EmailAddress = c.String(),
+                        Acknowleged = c.Boolean(),
                         Discriminator = c.String(nullable: false, maxLength: 128),
                     })
                 .PrimaryKey(t => t.Id);

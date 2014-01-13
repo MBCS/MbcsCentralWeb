@@ -13,6 +13,8 @@ namespace MbcsCentralWeb.Models
     {
         [Required]
         public string EmailAddress { get; set; }
+
+        public bool Acknowleged { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>

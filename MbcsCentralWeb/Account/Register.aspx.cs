@@ -15,7 +15,7 @@ namespace MbcsCentralWeb.Account
         {
 
             var manager = new UserManager();
-            var user = new ApplicationUser() { UserName = UserName.Text, EmailAddress=EmailAddress.Text};
+            var user = new ApplicationUser() { UserName = UserName.Text, EmailAddress=EmailAddress.Text, Acknowleged=false};
             IdentityResult result = manager.Create(user, Password.Text);
             if (result.Succeeded)
             {
