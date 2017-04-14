@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
      <div class="content-text-border">                               
-        <div class="general-h1"><b>The Property Management System has moved to the Web!</b></div>
+        <div class="general-h1"><b>Our Property Management System has moved to the Web!</b></div>
         <br />
         &nbsp;What you can do with <b>MbcsCentral</b>:
         <ul>
@@ -26,13 +26,11 @@
         </ul>  
         <div style="text-align:center;"> 
             &nbsp;Security is tight and each client's data will be completely separate from and not accessible to any other client.<br /><br />
-            &nbsp;<b>MbcsCentral</b> will include all of our current Property Management offerings.  It is also designed to grow along with new requirements.<br /><br />
+            &nbsp;<b>MbcsCentral</b> includes all of our current Property Management offerings.  It is designed to grow along with new requirements.<br /><br />
             <div style="font-family:'Arial Rounded MT'; color:red; font-size:18px; text-align:center;">
 
-                &nbsp;Check back for the soon to be available Beta Preview of the Cloud Edition of the <b>MbcsCentral</b> WinPM application
-                or REGISTER now to be notified as soon as it is available.<br />
+                &nbsp;The local edition of <b>MbcsCentral</b> WinPM application is available NOW.<br />
                 <br/>
-                You can see a full-featured demonstration by clicking on the DEMO option on the menu.
             </div>
         </div>
     </div>
