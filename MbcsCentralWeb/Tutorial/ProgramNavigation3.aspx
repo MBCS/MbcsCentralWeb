@@ -13,8 +13,9 @@
     <br /><br />
     The other tabs hint at the wide range of information stored for each tenant as well as two of the
     available add-on applications: Tenant Relationship Management (WinTRM) [Alerts], and Document Scanning and
-    Management (WinDOC) [Documents]. These tabs are now empty since this is only a demo of WinPM.
-    <br /><br />
+    Management (WinDOC) [Documents]. These tabs are now empty since this is only a demo of WinPM.<br />
+    <br />
+    Also notice the &#39;Email Tab&#39; and the &#39;E-MAIL&#39; button.&nbsp; Emails can be sent directly to a tenant from this screen.&nbsp; Late Notices can also be sent via E-Mail.<br /><br />
     Take some time to explore. 
     <br /><br /> 
     <a href="ProgramNavigation2.aspx" style="float:left; border:solid 3px; background-color:aliceblue" runat="server">PREVIOUS</a>

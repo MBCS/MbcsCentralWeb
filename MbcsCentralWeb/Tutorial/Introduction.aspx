@@ -25,8 +25,8 @@
                 <td style="text-align:left">
                     <i>Remote Desktop web page:</i>
                     <ul>
-                        <li>User Name: <b>mbcscentral\Demo</b></li>
-                        <li>Password:&nbsp;&nbsp;<b> Demo</b></li>
+                        <li>User Name: <b>mbcscentral01\demoUser</b></li>
+                        <li>Password:&nbsp;&nbsp;<b>Mbcs#2016</b></li>
                     </ul>
                 </td>
             </tr>
@@ -34,8 +34,8 @@
                 <td style="text-align:left">
                     <i>Windows Security (if prompted)</i>
                     <ul>
-                        <li>User Name: mbcscentral\Demo</li>
-                        <li>Password:&nbsp; &nbsp; <b>Demo</b></li>
+                        <li>User Name: mbcscentral01\demoUser</li>
+                        <li>Password:&nbsp; &nbsp; <b>Mbcs#2016</b></li>
                     </ul>
                 </td>
             </tr>
@@ -43,8 +43,8 @@
                 <td style="text-align:left">
                     <i>MbcsCentral Login Window:</i>
                     <ul>
-                        <li>User Name: <b>Demo</b></li>
-                        <li>Password:&nbsp; &nbsp;<b>Demo</b></li>
+                        <li>User Name: <b>demoUser</b></li>
+                        <li>Password:&nbsp; &nbsp;<b>Mbcs#2016</b></li>
                     </ul>
                 </td>
             </tr>

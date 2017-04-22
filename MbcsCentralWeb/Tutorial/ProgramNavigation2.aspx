@@ -8,12 +8,12 @@
     <br /><br />
     We are going to skip ahead and look at the Tenant records.
     <br /><br />
-    Start by clicking on WinPM then move the cursor down to and hover on <u>Work With Tenant</u> then
-    click on <u>Tenant Records</u> from the pop-up menu.
+    Start by clicking on WinPM then move the cursor down to and hover on <u>Tenant Records</u> and
+    click on it from the pop-up menu.
     <br /><br />
-    <img style="width:450px" src="../Images/WinPmMenuTenants.png" />
+    <img style="height:500px" src="../Images/WinPmMenuTopLevel.png" />
     <br /><br />
-    To display the <u> Working With Tenants List</u>
+    To display the <u> Work With Tenants List</u>
     <br /><br />
     <img style="width:600px; height:400px" src="../Images/WinPmTenants.png" />
     <br /><br />

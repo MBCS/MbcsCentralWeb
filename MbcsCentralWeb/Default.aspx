@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
      <div class="content-text-border">                               
-        <div class="general-h1"><b>Our Property Management System has moved to the Web!</b></div>
+        <div class="general-h1"><b>Our Property Management System is now available in the Cloud!</b></div>
         <br />
         &nbsp;What you can do with <b>MbcsCentral</b>:
         <ul>

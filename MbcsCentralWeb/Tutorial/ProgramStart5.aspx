@@ -8,16 +8,16 @@
     Until this point, the logins have been for gaining access to the cloud servers.  Now you are ready to login to the MbcsCentral application.
     <br /><br />
     In actual use, all persons to whom to you grant access will use the system assigned client username and password to access the server.  For each authorized person you 
-    will assign a separte username and password as well as a set of permissions. The permissions determine what parts of the program they can access and whether
+    will assign a separate username and password as well as a set of permissions. The permissions determine what parts of the program they can access and whether
     or not they will be able to make changes. 
     <br /><br />
     The MbcsCentral login window:
     <br /><br />
     <img src="../Images/MbcsCentralLogin.png" />
     <br /><br />
-    For the purposes of the Demo, the username and password are the same ones used to logon to the servers:<br />
-    &nbsp;&nbsp;Username: Demo <br />
-    &nbsp;&nbsp;Password: Demo
+    For the purposes of the Demo, this login may be skipped, but the username and password are the same ones used to logon to the servers:<br />
+    &nbsp;&nbsp;Username: demoUser <br />
+    &nbsp;&nbsp;Password: Mbcs#2016
     <br /><br />
     Once successfully logged in the MbcsCentral Menu will appear.  You are ready to explore.
     <br /><br />

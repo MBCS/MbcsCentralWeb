@@ -14,11 +14,13 @@
     <br /><br />
     <img src="../Images/WindowSecurity.png" />
     <br /><br />
-    Enter the password: Demo (note the capital 'D') and click OK.
+    Enter the password: Mbcs#2016 (note the capital 'M') and click OK.
     <br />
     <br />
     If the logon is successful a progress window will appear and then go away and the MbcsCentral Login window will display [Next Page]. 
-    <br /><br />
+    <br />
+    <br />
+    If an error message appears, click OK and click on the MbcsCentral icon again.<br /><br />
     <a href="ProgramStart3.aspx" style="float:left;border:solid 3px; background-color:aliceblue" runat="server">PREVIOUS</a>
     <a href="ProgramStart5.aspx" style="float:right; border:solid 2px; background-color:aliceblue" runat="server">NEXT</a> 
 </asp:Content>

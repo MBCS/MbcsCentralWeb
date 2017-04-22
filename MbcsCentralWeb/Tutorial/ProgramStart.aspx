@@ -11,7 +11,7 @@
             <li>You can start the MbcsCentral Demo by either:
                 <ul>
                     <li>Clicking the <b>DEMO</b> link on this page's menu</li>
-                    <li>Entering the following in your IE browser's address box: http://gate1.mbcscentral.com/rdweb and hitting ENTER</li>
+                    <li>Entering the following in your IE browser's address box: https://mbcscentral01.autords.com/RDWeb and hitting ENTER</li>
                 </ul>
             </li>
             <li>
@@ -22,8 +22,8 @@
         <ul>
             <li>Enter the following on the form:
                 <ul>
-                    <li>Domain\user name: mbcscentral\Demo</li>
-                    <li>Password: Demo</li>
+                    <li>Domain\user name: mbcscentral01\demoUser</li>
+                    <li>Password: Mbcs#2016</li>
                     <li>Press ENTER or click on the SIGN IN button</li>
                 </ul>
             </li>
