@@ -3,7 +3,7 @@
     <div class="mbcscentral-box">MBCSCENTRAL<br /></div>
     <div style="text-align:center; margin-top:20px">
         <div class="content-text-border2" >
-            <a href="https://mbcscentral01.autords.com/RDWeb" target="_blank">Click here for a demonstration of MbcsCentral</a>
+            <a href="https://mbcscentral01.autords.com/RDWeb" target="_blank">Click here for a demonstration of MbcsCentral <span style="color:red; font-size:24px">*</span></a>
             <div>
                 This is the actual application.  You will be able to access all of its functionality except the ability to make changes to the data.
             </div>
@@ -59,7 +59,9 @@
                     <td style="text-align:left">Prompting to logon to one or more of these pages may not be necessary after the first time that you logon as long as you do so from the same computer.</td>
                 </tr>
             </table>
-        </div>
+            <br />
+            <span style="color:red;font-size:24px">*</span>&nbsp;Demo is generally available between 10am and 5pm Eastern time Monday through Friday.<br />
+            If you wish to view it at another time, please let us know via e-mail: sales@bartmon.com or by phone: 347-527-7220. </div>
     </div>
     
 </asp:Content>
