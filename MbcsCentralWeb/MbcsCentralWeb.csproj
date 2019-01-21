@@ -24,6 +24,7 @@
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,6 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FluentFTP, Version=19.2.2.0, Culture=neutral, PublicKeyToken=f4af092b1d8df44f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentFTP.19.2.2\lib\net45\FluentFTP.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
@@ -165,6 +169,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Demonstration.aspx" />
+    <Content Include="Downloads.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\DefaultPage.png" />
     <Content Include="Images\Ledger.bmp" />
@@ -190,6 +195,159 @@
     <Content Include="Images\WinPmTenants.png" />
     <Content Include="Images\winpm_raw_elipse.gif" />
     <Content Include="MbcsCentralBanner.jpg" />
+    <Content Include="MbcsCentralHelp\assets\css\default.css" />
+    <Content Include="MbcsCentralHelp\assets\images\image.png" />
+    <Content Include="MbcsCentralHelp\assets\images\image10.png" />
+    <Content Include="MbcsCentralHelp\assets\images\image17.png" />
+    <Content Include="MbcsCentralHelp\assets\images\image18.png" />
+    <Content Include="MbcsCentralHelp\assets\images\image3.png" />
+    <Content Include="MbcsCentralHelp\assets\images\image5.png" />
+    <Content Include="MbcsCentralHelp\assets\images\image6.png" />
+    <Content Include="MbcsCentralHelp\assets\images\image9.png" />
+    <Content Include="MbcsCentralHelp\assets\images\ScreenShots.png" />
+    <Content Include="MbcsCentralHelp\assets\images\Slide2.PNG" />
+    <Content Include="MbcsCentralHelp\Documents\Creating_and_Editing\Add_Document_From_File.htm" />
+    <Content Include="MbcsCentralHelp\Documents\Creating_and_Editing\Add_Document_from_scanner.htm" />
+    <Content Include="MbcsCentralHelp\Documents\Creating_and_Editing\Document_Acquisition.htm" />
+    <Content Include="MbcsCentralHelp\Documents\Creating_and_Editing\Layout_Editing.htm" />
+    <Content Include="MbcsCentralHelp\Documents\Creating_and_Editing\Working_With_Fonts.htm" />
+    <Content Include="MbcsCentralHelp\Documents\Creating_and_Editing\Working_With_Insertion_Fields.htm" />
+    <Content Include="MbcsCentralHelp\Documents\Documents_Overview.htm" />
+    <Content Include="MbcsCentralHelp\Documents\Using_Documents\Lease_Renewal_Letters.htm" />
+    <Content Include="MbcsCentralHelp\Documents\Using_Documents\Tenant_Letters_Documents.htm" />
+    <Content Include="MbcsCentralHelp\Documents\Using_Documents\The_Email_Message_Window.htm" />
+    <Content Include="MbcsCentralHelp\Image9.png" />
+    <Content Include="MbcsCentralHelp\index.htm" />
+    <Content Include="MbcsCentralHelp\Introduction_to_MbcsCentral.htm" />
+    <Content Include="MbcsCentralHelp\parentdata.js" />
+    <Content Include="MbcsCentralHelp\projectdata.js" />
+    <Content Include="MbcsCentralHelp\screendata.js" />
+    <Content Include="MbcsCentralHelp\sitemap.xml" />
+    <Content Include="MbcsCentralHelp\System_Requirements.htm" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\andsearch_mark.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\andsearch_nomark.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\back_mobile.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\back_mobile_filter.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\back_mobile_ltr.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\back_mobile_rtl.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\collapse_all.svg" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\expand_all.svg" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\filter_clearall.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\filter_desktop.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\filter_desktop_applied.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\filter_mark.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\filter_mark_radio.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\filter_mobile.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\filter_mobile_applied.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\filter_nomark.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\filter_nomark_radio.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\filter_tab.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\filter_tab_applied.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\glossary_desktop.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\glossary_mobile.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\glossary_tab.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\idx_topic.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\index_desktop.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\index_mobile.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\index_tab.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\layout-rtl.css" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\layout.css" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\loading.gif" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\logo.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\MasterThemeSchema.xml" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\menu.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\next.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\next_active.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\next_mobile.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\next_mobile_active.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\next_tab.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\next_tab_active.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\previous.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\previous_active.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\previous_mobile.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\previous_mobile_active.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\previous_tab.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\previous_tab_active.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\print_desktop.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\remove-active.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\remove.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\removesearch_mark.svg" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\search.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\search_desktop.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\search_desktop_active.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\search_desktop_navigation.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\search_mobile.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\search_mobile_active.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\search_mobile_navigation.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\search_tab.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\search_topic_desktop.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\slider.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\slider_ltr.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\slider_open.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\slider_open_ltr.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\slider_open_rtl.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\slider_rtl.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\SLZConfig.xml" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\social_close.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\social_close_ltr.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\social_close_rtl.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\social_open.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_book_closed_desktop.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_book_closed_mobile.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_book_open_desktop.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_book_open_drildown.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_book_open_mobile.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_desktop.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_link_desktop.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_link_desktop_ltr.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_link_desktop_rtl.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_link_mobile.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_link_mobile_ltr.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_link_mobile_rtl.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_mobile.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_tab.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_topic_desktop.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\toc_topic_mobile.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\top.png" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\usersettings.js" />
+    <Content Include="MbcsCentralHelp\template\images\expand.png" />
+    <Content Include="MbcsCentralHelp\template\images\LoadingData.gif" />
+    <Content Include="MbcsCentralHelp\template\images\modal-close.png" />
+    <Content Include="MbcsCentralHelp\template\scripts\common.min.js" />
+    <Content Include="MbcsCentralHelp\template\scripts\layout.min.js" />
+    <Content Include="MbcsCentralHelp\template\scripts\layoutwidgets.min.js" />
+    <Content Include="MbcsCentralHelp\template\scripts\rh.min.js" />
+    <Content Include="MbcsCentralHelp\template\scripts\topic.min.js" />
+    <Content Include="MbcsCentralHelp\template\scripts\topicwidgets.min.js" />
+    <Content Include="MbcsCentralHelp\template\styles\layout.min.css" />
+    <Content Include="MbcsCentralHelp\template\styles\layoutfix.min.css" />
+    <Content Include="MbcsCentralHelp\template\styles\topic.min.css" />
+    <Content Include="MbcsCentralHelp\whxdata\csh.new.js" />
+    <Content Include="MbcsCentralHelp\whxdata\gdata1.new.js" />
+    <Content Include="MbcsCentralHelp\whxdata\glo.new.js" />
+    <Content Include="MbcsCentralHelp\whxdata\projectsettings.js" />
+    <Content Include="MbcsCentralHelp\whxdata\search_auto_index.js" />
+    <Content Include="MbcsCentralHelp\whxdata\search_auto_map_0.js" />
+    <Content Include="MbcsCentralHelp\whxdata\search_auto_model_0.js" />
+    <Content Include="MbcsCentralHelp\whxdata\search_db.js" />
+    <Content Include="MbcsCentralHelp\whxdata\search_topics.js" />
+    <Content Include="MbcsCentralHelp\whxdata\text\0.js" />
+    <Content Include="MbcsCentralHelp\whxdata\text\1.js" />
+    <Content Include="MbcsCentralHelp\whxdata\text\10.js" />
+    <Content Include="MbcsCentralHelp\whxdata\text\11.js" />
+    <Content Include="MbcsCentralHelp\whxdata\text\2.js" />
+    <Content Include="MbcsCentralHelp\whxdata\text\3.js" />
+    <Content Include="MbcsCentralHelp\whxdata\text\4.js" />
+    <Content Include="MbcsCentralHelp\whxdata\text\5.js" />
+    <Content Include="MbcsCentralHelp\whxdata\text\6.js" />
+    <Content Include="MbcsCentralHelp\whxdata\text\7.js" />
+    <Content Include="MbcsCentralHelp\whxdata\text\8.js" />
+    <Content Include="MbcsCentralHelp\whxdata\text\9.js" />
+    <Content Include="MbcsCentralHelp\whxdata\toc.new.js" />
+    <Content Include="MbcsCentralHelp\whxdata\toc1.new.js" />
+    <Content Include="MbcsCentralHelp\whxdata\toc2.new.js" />
+    <Content Include="MbcsCentralHelp\whxdata\toc3.new.js" />
+    <Content Include="MbcsCentralHelp\whxdata\toc4.new.js" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -212,6 +370,12 @@
     <Content Include="WebForm1.aspx" />
     <Content Include="WinGlProduct.aspx" />
     <Content Include="WinPmProduct.aspx" />
+    <Content Include="MbcsCentralHelp\index.ppf" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\html5.skn" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\index.ejs" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\Topic.slp" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\usersettings.ejs" />
+    <Content Include="MbcsCentralHelp\template\Azure_Blue\webhelp.skn" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\mbcs - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\MbcsCentral HTTP.pubxml" />
@@ -332,6 +496,13 @@
     </Compile>
     <Compile Include="Demonstration.aspx.designer.cs">
       <DependentUpon>Demonstration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Downloads.aspx.cs">
+      <DependentUpon>Downloads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Downloads.aspx.designer.cs">
+      <DependentUpon>Downloads.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

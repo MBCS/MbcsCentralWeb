@@ -5,7 +5,11 @@
     </asp:Content>
     <asp:Content ID="BoxContent" ContentPlaceHolderID="BoxContent" runat="server">
         <a href="ProgramStart.aspx" style="float:right; margin-top:-21px; border:solid 2px; background-color:aliceblue" runat="server">NEXT</a> 
-        <br /><br />
+        <br />
+        <br />
+        <span style="font-weight: normal; font-size: large"><strong>Sorry, Demo is no longer available but please browse the tutorial links.<br />
+        Call us at 347-527-7220 for a one-on-one online demo.<br />
+        </strong></span><br />
         This demo will introduce you to the MbcsCentral Tenant Accounts Receivable applicaton (WinPM).
         It is the actual application with the ability to make changes disabled. It will give you the 
         opportunity to examine all of the functionality that it makes available.

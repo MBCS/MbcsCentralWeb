@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TopLevel.Master" AutoEventWireup="true" CodeBehind="Demonstration.aspx.cs" Inherits="MbcsCentralWeb.Demonstration" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="mbcscentral-box">MBCSCENTRAL<br /></div>
+    <div class="mbcscentral-box">MbcsCentral<br /></div>
     <div style="text-align:center; margin-top:20px">
         <div class="content-text-border2" >
             <a href="https://mbcscentral01.autords.com/RDWeb" target="_blank">Click here for a demonstration of MbcsCentral <span style="color:red; font-size:24px">*</span></a>
@@ -60,8 +60,8 @@
                 </tr>
             </table>
             <br />
-            <span style="color:red;font-size:24px">*</span>&nbsp;Demo is generally available between 10am and 5pm Eastern time Monday through Friday.<br />
-            If you wish to view it at another time, please let us know via e-mail: sales@bartmon.com or by phone: 347-527-7220. </div>
+            <span style="color:red;font-size:24px">*</span>&nbsp;Demo is no longer available but you can browse the tutorial links to get a flavor of MbcsCentral.<br />
+            <span style="font-weight: normal; font-size: large"><strong>Call us at 347-527-7220 for a one-on-one online demo.</strong></span></div>
     </div>
     
 </asp:Content>
