@@ -196,14 +196,17 @@
     <Content Include="Images\winpm_raw_elipse.gif" />
     <Content Include="MbcsCentralBanner.jpg" />
     <Content Include="MbcsCentralHelp\assets\css\default.css" />
+    <Content Include="MbcsCentralHelp\assets\images\EmailWindow.png" />
     <Content Include="MbcsCentralHelp\assets\images\image.png" />
     <Content Include="MbcsCentralHelp\assets\images\image10.png" />
     <Content Include="MbcsCentralHelp\assets\images\image17.png" />
     <Content Include="MbcsCentralHelp\assets\images\image18.png" />
+    <Content Include="MbcsCentralHelp\assets\images\image20.png" />
     <Content Include="MbcsCentralHelp\assets\images\image3.png" />
     <Content Include="MbcsCentralHelp\assets\images\image5.png" />
     <Content Include="MbcsCentralHelp\assets\images\image6.png" />
     <Content Include="MbcsCentralHelp\assets\images\image9.png" />
+    <Content Include="MbcsCentralHelp\assets\images\rhlog.txt" />
     <Content Include="MbcsCentralHelp\assets\images\Screenshot %282%29.png" />
     <Content Include="MbcsCentralHelp\assets\images\ScreenShots.png" />
     <Content Include="MbcsCentralHelp\assets\images\Slide2.PNG" />

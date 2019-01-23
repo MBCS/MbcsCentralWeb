@@ -6,7 +6,7 @@ model = rh.model;
 rh.consts('DEFAULT_TOPIC', encodeURI("Introduction_to_MbcsCentral.htm"));
 rh.consts('HOME_FILEPATH', encodeURI('index.htm'));
 rh.consts('START_FILEPATH', encodeURI('index.htm'));
-rh.consts('HELP_ID', '723ed0af-8f78-48d2-ad63-bcc5e30649c5' || 'preview');
+rh.consts('HELP_ID', '3a0d94ed-a911-4365-8bd9-2e9c7c60c6d7' || 'preview');
 rh.consts('LNG_SUBSTR_SEARCH', 0);
 
 model.publish(rh.consts('KEY_LNG_NAME'), "en_US");
