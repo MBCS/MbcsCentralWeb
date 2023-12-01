@@ -18,15 +18,7 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
- <!-- Start of mbcs Zendesk Widget script
-<script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="mbcs.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();
-/*]]>*/</script>
-End of mbcs Zendesk Widget script -->
-
-<!-- Start of mbcs Zendesk Widget script -->
-<script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="mbcs.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();
-/*]]>*/</script>
-<!-- End of mbcs Zendesk Widget script -->
+    <script src="https://desk.zoho.com/portal/api/feedbackwidget/322751000000269011?orgId=675936019&displayType=popout"></script>
 </head>
 <body>
     <form runat="server">
@@ -67,8 +59,9 @@ End of mbcs Zendesk Widget script -->
                         <li><a href="Tutorial/Introduction.aspx">Tutorial</a></li>
                         <li><a href="MbcsCentralHelp/index.htm">MbcsCentral Help</a></li>
                         <li><a runat="server" href="http://www.bartmon.com">Our Main Site</a></li>
-                        <li><a runat="server" target="_blank" href="http://mbartmon.com:8080/servicedesk/customer/mbcscen">Help Desk</a></li>
+                        <li><a runat="server" target="_blank" href="https://desk.zoho.com/portal/mbcomputer/home">Help Desk</a></li>
                         <li><a runat="server" target="_blank" href="ftp://mbcscentral@mariphaw.com">FTP</a></li>
+                        <li><a href="API/index.html">APIs</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                     </ul>
@@ -106,7 +99,24 @@ End of mbcs Zendesk Widget script -->
             </div>
         </div>
    </form>
+
     <script type="text/javascript" src="https://mbccomputer.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-874wpt/b/15/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=e2f87821"></script>
-    <a title="web analytics" href="http://statcounter.com/" target="_blank"><img src="http://c.statcounter.com/9534988/0/9af7d439/1/" alt="web analytics" style="border:none;"></a>
+    <!-- Default Statcounter code for Mbcscentral.com
+mbcscentral.com -->
+<script type="text/javascript">
+var sc_project=9534988; 
+var sc_invisible=1; 
+var sc_security="9af7d439"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/9534988/0/9af7d439/1/"
+alt="Web Analytics"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
 </body>
 </html>

@@ -41,7 +41,7 @@
         </div>
     </div>
 
-        <!-- AeroAdmin Quick Button. Generated at http://www.aeroadmin.com -->
-<div style="padding:5px; position:relative; width:136px; height:81px;">
-    <a href="https://ulm.aeroadmin.com/AeroAdmin.exe" style="text-decoration:none;"><span style="position:absolute; top:59; left:15px; color:Black; font-family:Arial; font-size:12px; line-height:1.2em; font-weight:bold; text-align:center; display:block; cursor:pointer; width:116px;">Remote Support Software</span></a></div>
+
+
+
 </asp:Content>

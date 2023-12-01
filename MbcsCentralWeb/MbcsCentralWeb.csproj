@@ -49,6 +49,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DumpExtensions, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DumpExtensions.2.0.0\lib\net45\DumpExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="FluentFTP, Version=19.2.2.0, Culture=neutral, PublicKeyToken=f4af092b1d8df44f, processorArchitecture=MSIL">
       <HintPath>..\packages\FluentFTP.19.2.2\lib\net45\FluentFTP.dll</HintPath>
     </Reference>
@@ -164,6 +167,7 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="API\index.html" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -380,6 +384,7 @@
     <Content Include="MbcsCentralHelp\template\Azure_Blue\Topic.slp" />
     <Content Include="MbcsCentralHelp\template\Azure_Blue\usersettings.ejs" />
     <Content Include="MbcsCentralHelp\template\Azure_Blue\webhelp.skn" />
+    <Content Include="PDF_Help\MbcsCentral_Manual.pdf" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\mbcs - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\MbcsCentral HTTP.pubxml" />
@@ -676,6 +681,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="API\MbcsMail\" />
+    <Folder Include="API\MbcsUtils\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
