@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.7.8.0" projectFile="E:\workfiles\MbcsMail_Documentation.shfbproj" started="12/2/2023 11:57:19 AM">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    E:\workfiles
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2023.7.8.0
+Copyright &#169; 2006-2023, Eric Woodruff, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: E:\workfiles\MbcsMail\MbcsMail\MbcsMail.csproj
+    Found project &#39;E:\workfiles\MbcsMail\MbcsMail\MbcsMail.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;E:\workfiles\MbcsMail\MbcsMail\bin\Debug\MbcsMail.dll&#39; (.NETFramework 4.8)
+SHFB: Warning BE0007: A project with a different or higher framework version was found.  Changing project FrameworkVersion property from &#39;.NET Framework 4.7.2&#39; to &#39;.NET Framework 4.8&#39; for the build.
+
+References to include:
+    ChilkatDotNet46
+    Email.NET
+    MbcsMail
+    PdfSharp.Xps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=x86
+    Vintasoft.Twain, Version=10.0.5.1, Culture=neutral, PublicKeyToken=153caf29a10d2e31, processorArchitecture=x86
+    WPTDynInt3
+
+Copying XML comments files
+    E:\workfiles\MbcsMail\MbcsMail\bin\Debug\MbcsMail.xml -&gt; E:\workfiles\Help\Working\MbcsMail.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-48462f6d-29f6-4a82-99aa-7ca49456cb17.proj]
+Build started 12/2/2023 11:57:45 AM.
+
+Project &quot;E:\workfiles\Help\Working\GenerateRefInfo-48462f6d-29f6-4a82-99aa-7ca49456cb17.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  Microsoft.Build (v17.7.2+d6990bcfaf520c0d215a194fad0617f7efad68b4)
+  c Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 2 dependency assemblies.
+  Wrote information on 1 namespaces, 11 types, and 130 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Done Building Project &quot;E:\workfiles\Help\Working\GenerateRefInfo-48462f6d-29f6-4a82-99aa-7ca49456cb17.proj&quot; (default targets).
+    Last step completed in 00:00:00.9926
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00.0820
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00.1036
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00.0776
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0170
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.0220
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00.0886
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0010
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+E:\workfiles\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00.0100
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [N:MbcsMail] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.frmContent] Member ID URL resolver service failed.  No further look ups will be performed for this build.
+Reason: The remote server returned an error: (403) Forbidden.
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.frmMessageBox.Show(System.String,System.String,System.Windows.Forms.MessageBoxButtons)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MbcsMail.Main] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.Main.ChilkatLicense] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.Main.LICENSE_KEY] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.Main.LICENSE_NAME] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.AllOrNone&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.AutoFix&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.AutoGenMessageId&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.AutoSmtpRset&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.AutoUnwrapSecurity&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.ClientIpAddress&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.ConnectTimeout&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.DebugLogFilePath&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.DsnEnvid&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.DsnNotify&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.DsnRet&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.EmbedCertChain&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.EnableEvents&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Filter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HeartbeatMs&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HeloHostname&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HttpProxyAuthMethod&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HttpProxyDomain&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HttpProxyHostname&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HttpProxyPassword&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HttpProxyPort&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HttpProxyUsername&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.ImmediateDelete&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.IncludeRootCert&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.IsPop3Connected&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.IsSmtpConnected&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LastErrorHtml&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LastErrorText&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LastErrorXml&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LastMethodSuccess&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LastSendQFilename&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LastSmtpStatus&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LogMailReceivedFilename&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LogMailSentFilename&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.MailHost&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.MailPort&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.MaxCount&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.OAuth2AccessToken&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.OpaqueSigning&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.P7mEncryptAttachFilename&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.P7mSigAttachFilename&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.P7sSigAttachFilename&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.PercentDoneScale&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Pop3SessionId&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Pop3SessionLog&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Pop3SPA&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Pop3SslServerCertVerified&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Pop3Stls&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.PopPassword&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.PopPasswordBase64&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.PopSsl&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.PopUsername&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.PreferIpv6&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.ReadTimeout&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.RequireSslCertVerify&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.ResetDateOnLoad&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SendBufferSize&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SendIndividual&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SizeLimit&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpAuthMethod&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpFailReason&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpHost&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpLoginDomain&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpPassword&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpPipelining&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpPort&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpSessionLog&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpSsl&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpSslServerCertVerified&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpUsername&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SocksHostname&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SocksPassword&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SocksPort&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SocksUsername&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SocksVersion&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SoRcvBuf&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SoSndBuf&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SslAllowedCiphers&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SslProtocol&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.StartTLS&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.TlsCipherSuite&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.TlsVersion&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.UseApop&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.VerboseLogging&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Version&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.AddPfxSourceData(System.Byte[],System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.AddPfxSourceFile(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.CheckMail&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.CheckMailAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.ClearBadEmailAddresses&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.ClearPop3SessionLog&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.ClearSmtpSessionLog&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.CloseSmtpConnection&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.CloseSmtpConnectionAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.CopyMail&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.CopyMailAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteBundle(Chilkat.EmailBundle)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteBundleAsync(Chilkat.EmailBundle)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteByMsgnum(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteByMsgnumAsync(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteByUidl(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteByUidlAsync(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteEmail(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteEmailAsync(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteMultiple(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteMultipleAsync(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Dispose&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Dispose(System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchByMsgnum(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchByMsgnumAsync(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchEmail(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchEmailAsync(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMime(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMimeAsync(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMimeByMsgnum(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMimeByMsgnumAsync(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMultiple(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMultipleAsync(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMultipleHeaders(Chilkat.StringArray,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMultipleHeadersAsync(Chilkat.StringArray,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMultipleMime(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMultipleMimeAsync(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchSingleHeader(System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchSingleHeaderAsync(System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchSingleHeaderByUidl(System.Int32,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchSingleHeaderByUidlAsync(System.Int32,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Finalize&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FireAbortCheck(System.Object,Chilkat.AbortCheckEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FireEmailReceived(System.Object,Chilkat.EmailEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FirePercentDone(System.Object,Chilkat.PercentDoneEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FireProgressInfo(System.Object,Chilkat.ProgressInfoEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FireTaskCompleted(System.Object,Chilkat.TaskCompletedEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetAllHeaders(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetAllHeadersAsync(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetBadEmailAddrs&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetFullEmail(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetFullEmailAsync(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetHeaders(System.Int32,System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetHeadersAsync(System.Int32,System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.getImpl&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetMailboxCount&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetMailboxCountAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetMailboxInfoXml&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetMailboxInfoXmlAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetMailboxSize&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetMailboxSizeAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetPop3SslServerCert&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetSentToEmailAddrs&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetSizeByUidl(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetSizeByUidlAsync(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetSmtpSslServerCert&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetUidls&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetUidlsAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.IsSmtpDsnCapable&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.IsSmtpDsnCapableAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.IsUnlocked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadEml(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadMbx(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadMime(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadQueuedEmail(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadXmlEmail(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadXmlEmailString(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadXmlFile(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadXmlString(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.MxLookup(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.MxLookupAll(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.OpenSmtpConnection&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.OpenSmtpConnectionAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3BeginSession&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3BeginSessionAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3EndSession&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3EndSessionAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3EndSessionNoQuit&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3EndSessionNoQuitAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3Noop&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3NoopAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3Reset&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3ResetAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3SendRawCommand(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3SendRawCommandAsync(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.QuickSend(System.String,System.String,System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.QuickSendAsync(System.String,System.String,System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.RenderToMime(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.RenderToMimeBytes(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SaveLastError(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendBundle(Chilkat.EmailBundle)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendBundleAsync(Chilkat.EmailBundle)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendEmail(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendEmailAsync(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMime(System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeAsync(System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeBytes(System.String,System.String,System.Byte[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeBytesAsync(System.String,System.String,System.Byte[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeBytesQ(System.String,System.String,System.Byte[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeQ(System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeToList(System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeToListAsync(System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendQ(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendQ2(Chilkat.Email,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendToDistributionList(Chilkat.Email,Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendToDistributionListAsync(Chilkat.Email,Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SetCSP(Chilkat.Csp)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SetDecryptCert(Chilkat.Cert)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SetDecryptCert2(Chilkat.Cert,Chilkat.PrivateKey)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SetSslClientCert(Chilkat.Cert)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SetSslClientCertPem(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SetSslClientCertPfx(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpAuthenticate&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpAuthenticateAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpConnect&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpConnectAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpNoop&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpNoopAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpReset&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpResetAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpSendRawCommand(System.String,System.String,System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpSendRawCommandAsync(System.String,System.String,System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshAuthenticatePk(System.String,Chilkat.SshKey)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshAuthenticatePkAsync(System.String,Chilkat.SshKey)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshAuthenticatePw(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshAuthenticatePwAsync(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshCloseTunnel&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshCloseTunnelAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshOpenTunnel(System.String,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshOpenTunnelAsync(System.String,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.TransferMail&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.TransferMailAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.TransferMultipleMime(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.TransferMultipleMimeAsync(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.UnlockComponent(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.UseCertVault(Chilkat.XmlCertVault)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.UseSshTunnel(Chilkat.Socket)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifyPopConnection&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifyPopConnectionAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifyPopLogin&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifyPopLoginAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifyRecips(Chilkat.Email,Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifyRecipsAsync(Chilkat.Email,Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifySmtpConnection&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifySmtpConnectionAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifySmtpLogin&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifySmtpLoginAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;E:Chilkat.MailMan.OnAbortCheck&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;E:Chilkat.MailMan.OnEmailReceived&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;E:Chilkat.MailMan.OnPercentDone&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;E:Chilkat.MailMan.OnProgressInfo&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;E:Chilkat.MailMan.OnTaskCompleted&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.AddPfxSourceData(System.Byte[],System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.AddPfxSourceFile(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.CheckMail&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.CheckMailAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.ClearBadEmailAddresses&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.ClearPop3SessionLog&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.ClearSmtpSessionLog&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.CloseSmtpConnection&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.CloseSmtpConnectionAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.CopyMail&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.CopyMailAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteBundle(Chilkat.EmailBundle)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteBundleAsync(Chilkat.EmailBundle)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteByMsgnum(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteByMsgnumAsync(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteByUidl(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteByUidlAsync(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteEmail(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteEmailAsync(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteMultiple(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.DeleteMultipleAsync(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Dispose&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Dispose(System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchByMsgnum(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchByMsgnumAsync(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchEmail(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchEmailAsync(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMime(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMimeAsync(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMimeByMsgnum(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMimeByMsgnumAsync(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMultiple(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMultipleAsync(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMultipleHeaders(Chilkat.StringArray,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMultipleHeadersAsync(Chilkat.StringArray,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMultipleMime(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchMultipleMimeAsync(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchSingleHeader(System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchSingleHeaderAsync(System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchSingleHeaderByUidl(System.Int32,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FetchSingleHeaderByUidlAsync(System.Int32,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Finalize&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FireAbortCheck(System.Object,Chilkat.AbortCheckEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FireEmailReceived(System.Object,Chilkat.EmailEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FirePercentDone(System.Object,Chilkat.PercentDoneEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FireProgressInfo(System.Object,Chilkat.ProgressInfoEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.FireTaskCompleted(System.Object,Chilkat.TaskCompletedEventArgs)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetAllHeaders(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetAllHeadersAsync(System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetBadEmailAddrs&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetFullEmail(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetFullEmailAsync(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetHeaders(System.Int32,System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetHeadersAsync(System.Int32,System.Int32,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.getImpl&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetMailboxCount&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetMailboxCountAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetMailboxInfoXml&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetMailboxInfoXmlAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetMailboxSize&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetMailboxSizeAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetPop3SslServerCert&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetSentToEmailAddrs&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetSizeByUidl(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetSizeByUidlAsync(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetSmtpSslServerCert&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetUidls&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.GetUidlsAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.IsSmtpDsnCapable&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.IsSmtpDsnCapableAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.IsUnlocked&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadEml(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadMbx(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadMime(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadQueuedEmail(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadXmlEmail(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadXmlEmailString(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadXmlFile(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.LoadXmlString(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.MxLookup(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.MxLookupAll(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.OpenSmtpConnection&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.OpenSmtpConnectionAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3BeginSession&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3BeginSessionAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3EndSession&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3EndSessionAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3EndSessionNoQuit&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3EndSessionNoQuitAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3Noop&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3NoopAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3Reset&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3ResetAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3SendRawCommand(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.Pop3SendRawCommandAsync(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.QuickSend(System.String,System.String,System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.QuickSendAsync(System.String,System.String,System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.RenderToMime(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.RenderToMimeBytes(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SaveLastError(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendBundle(Chilkat.EmailBundle)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendBundleAsync(Chilkat.EmailBundle)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendEmail(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendEmailAsync(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMime(System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeAsync(System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeBytes(System.String,System.String,System.Byte[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeBytesAsync(System.String,System.String,System.Byte[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeBytesQ(System.String,System.String,System.Byte[])&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeQ(System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeToList(System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendMimeToListAsync(System.String,System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendQ(Chilkat.Email)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendQ2(Chilkat.Email,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendToDistributionList(Chilkat.Email,Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SendToDistributionListAsync(Chilkat.Email,Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SetCSP(Chilkat.Csp)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SetDecryptCert(Chilkat.Cert)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SetDecryptCert2(Chilkat.Cert,Chilkat.PrivateKey)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SetSslClientCert(Chilkat.Cert)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SetSslClientCertPem(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SetSslClientCertPfx(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpAuthenticate&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpAuthenticateAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpConnect&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpConnectAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpNoop&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpNoopAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpReset&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpResetAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpSendRawCommand(System.String,System.String,System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SmtpSendRawCommandAsync(System.String,System.String,System.Boolean)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshAuthenticatePk(System.String,Chilkat.SshKey)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshAuthenticatePkAsync(System.String,Chilkat.SshKey)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshAuthenticatePw(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshAuthenticatePwAsync(System.String,System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshCloseTunnel&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshCloseTunnelAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshOpenTunnel(System.String,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.SshOpenTunnelAsync(System.String,System.Int32)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.TransferMail&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.TransferMailAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.TransferMultipleMime(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.TransferMultipleMimeAsync(Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.UnlockComponent(System.String)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.UseCertVault(Chilkat.XmlCertVault)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.UseSshTunnel(Chilkat.Socket)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifyPopConnection&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifyPopConnectionAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifyPopLogin&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifyPopLoginAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifyRecips(Chilkat.Email,Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifyRecipsAsync(Chilkat.Email,Chilkat.StringArray)&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifySmtpConnection&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifySmtpConnectionAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifySmtpLogin&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;M:Chilkat.MailMan.VerifySmtpLoginAsync&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.AllOrNone&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.AutoFix&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.AutoGenMessageId&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.AutoSmtpRset&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.AutoUnwrapSecurity&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.ClientIpAddress&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.ConnectTimeout&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.DebugLogFilePath&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.DsnEnvid&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.DsnNotify&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.DsnRet&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.EmbedCertChain&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.EnableEvents&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Filter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HeartbeatMs&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HeloHostname&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HttpProxyAuthMethod&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HttpProxyDomain&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HttpProxyHostname&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HttpProxyPassword&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HttpProxyPort&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.HttpProxyUsername&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.ImmediateDelete&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.IncludeRootCert&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.IsPop3Connected&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.IsSmtpConnected&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LastErrorHtml&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LastErrorText&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LastErrorXml&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LastMethodSuccess&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LastSendQFilename&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LastSmtpStatus&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LogMailReceivedFilename&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.LogMailSentFilename&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.MailHost&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.MailPort&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.MaxCount&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.OAuth2AccessToken&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.OpaqueSigning&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.P7mEncryptAttachFilename&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.P7mSigAttachFilename&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.P7sSigAttachFilename&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.PercentDoneScale&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Pop3SessionId&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Pop3SessionLog&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Pop3SPA&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Pop3SslServerCertVerified&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Pop3Stls&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.PopPassword&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.PopPasswordBase64&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.PopSsl&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.PopUsername&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.PreferIpv6&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.ReadTimeout&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.RequireSslCertVerify&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.ResetDateOnLoad&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SendBufferSize&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SendIndividual&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SizeLimit&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpAuthMethod&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpFailReason&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpHost&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpLoginDomain&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpPassword&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpPipelining&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpPort&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpSessionLog&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpSsl&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpSslServerCertVerified&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SmtpUsername&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SocksHostname&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SocksPassword&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SocksPort&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SocksUsername&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SocksVersion&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SoRcvBuf&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SoSndBuf&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SslAllowedCiphers&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.SslProtocol&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.StartTLS&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.TlsCipherSuite&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.TlsVersion&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.UseApop&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.VerboseLogging&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;P:Chilkat.MailMan.Version&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:MbcsMail.MbcsMail] Unknown reference link target &#39;E:Chilkat.MailMan.OnAbortCheck&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:MbcsMail.MbcsMail] Unknown reference link target &#39;E:Chilkat.MailMan.OnEmailReceived&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:MbcsMail.MbcsMail] Unknown reference link target &#39;E:Chilkat.MailMan.OnPercentDone&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:MbcsMail.MbcsMail] Unknown reference link target &#39;E:Chilkat.MailMan.OnProgressInfo&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:MbcsMail.MbcsMail] Unknown reference link target &#39;E:Chilkat.MailMan.OnTaskCompleted&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Events.T:MbcsMail.MbcsMail] Unknown reference link target &#39;T:Chilkat.MailMan&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.AddDataAttachment(System.String,System.Byte[])] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.AddDataAttachment(System.String,System.Byte[])] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.AddDataAttachment(System.String,System.Byte[])] Missing &lt;param name=&quot;filePath&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.AddDataAttachment(System.String,System.Byte[])] Missing &lt;param name=&quot;content&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.AddFileAttachment(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.AddFileAttachment(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.AddFileAttachment(System.String)] Missing &lt;param name=&quot;path&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.email] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsMail.MbcsMail.email] Unknown reference link target &#39;T:Chilkat.Email&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.errBody] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.errCanceled] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.errFrom] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.errMessage] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.errNone] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.ErrorResults] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.errOther] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.errSize] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.errSMTP] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.errSubject] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.errTo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsMail.MbcsMail.getFullMessage] Unknown reference link target &#39;T:Chilkat.Email&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pBody] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pDisplayName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pEmailAddress] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pFrom] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pIncomingPort] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pIncomingServer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pInteraction] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pOutgoingPort] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pOutgoingServer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pPassword] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pStatus] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pSubject] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pTo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pUserName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MbcsMail.MbcsMail.pUseSSL] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.Send(System.Decimal)] Missing &lt;param name=&quot;MaxSize&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.SendAsync(Chilkat.Task@)] Missing &lt;param name=&quot;task&quot;/&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsMail.MbcsMail.SendAsync(Chilkat.Task@)] Unknown reference link target &#39;T:Chilkat.Task&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.setMessage(System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;fromAddr&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.setMessage(System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;toAddr&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.setMessage(System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;name&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.setMessage(System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;useBCC&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMail.setMessage(System.String,System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;useBCC&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MbcsMail.MbcsMail.iType] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MbcsMail.MbcsMailException] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMailException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;info&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMailException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMailException.#ctor(System.String)] Missing &lt;param name=&quot;message&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMailException.#ctor(System.String,System.Exception)] Missing &lt;param name=&quot;message&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.MbcsMailException.#ctor(System.String,System.Exception)] Missing &lt;param name=&quot;innerException&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MbcsMail.Message] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Message.Send(System.Int64,MbcsMail.Smtp.Config,System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Message.Send(System.Int64,MbcsMail.Smtp.Config,System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;smtpId&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Message.Send(System.Int64,MbcsMail.Smtp.Config,System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;configurationData&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Message.Send(System.Int64,MbcsMail.Smtp.Config,System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;FromAddr&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Message.Send(System.Int64,MbcsMail.Smtp.Config,System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;ToAddr&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Message.Send(System.Int64,MbcsMail.Smtp.Config,System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;Subject&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Message.Send(System.Int64,MbcsMail.Smtp.Config,System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;Body&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Message.Send(System.Int64,MbcsMail.Smtp.Config,System.String,System.String,System.String,System.String,System.Boolean)] Missing &lt;param name=&quot;ReturnReceipt&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MbcsMail.Smtp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MbcsMail.Smtp.Config] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;ID&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;description&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;emailAddress&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;userName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;password&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;server&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;port&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;SSL&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;TSL&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;authentication&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;in_userName&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;in_password&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;in_server&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;in_port&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;in_SSL&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;in_TSL&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsMail.Smtp.Config.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String,System.Int32,System.Boolean,System.Boolean,System.Int32)] Missing &lt;param name=&quot;in_authentication&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.authentication] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.defaultAccount] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.description] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.emailAddress] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.ID] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.in_authentication] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.in_password] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.in_port] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.in_server] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.in_SSL] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.in_TSL] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.in_userName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.password] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.port] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.server] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.SSL] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.TSL] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsMail.Smtp.Config.userName] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MbcsMail.TestEmail] Missing &lt;summary&gt; documentation
+Processed 165 topic(s)
+1094 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:00:39.8711
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; E:\workfiles\Help\Working\Output\Website\css\bulma.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; E:\workfiles\Help\Working\Output\Website\css\bulma.css.map
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; E:\workfiles\Help\Working\Output\Website\css\bulma.min.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; E:\workfiles\Help\Working\Output\Website\css\font-awesome.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; E:\workfiles\Help\Working\Output\Website\css\font-awesome.min.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; E:\workfiles\Help\Working\Output\Website\css\ja-JP.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; E:\workfiles\Help\Working\Output\Website\css\ko-KR.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; E:\workfiles\Help\Working\Output\Website\css\presentationStyle.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; E:\workfiles\Help\Working\Output\Website\css\vs.min.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; E:\workfiles\Help\Working\Output\Website\css\zh-CN.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; E:\workfiles\Help\Working\Output\Website\css\zh-TW.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; E:\workfiles\Help\Working\Output\Website\icons\favicon.ico
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; E:\workfiles\Help\Working\Output\Website\scripts\clipboard.min.js
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; E:\workfiles\Help\Working\Output\Website\scripts\highlight.min.js
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; E:\workfiles\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; E:\workfiles\Help\Working\Output\Website\scripts\presentationStyle.js
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; E:\workfiles\Help\Working\Output\Website\webfonts\fa-brands-400.ttf
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; E:\workfiles\Help\Working\Output\Website\webfonts\fa-brands-400.woff2
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; E:\workfiles\Help\Working\Output\Website\webfonts\fa-regular-400.ttf
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; E:\workfiles\Help\Working\Output\Website\webfonts\fa-regular-400.woff2
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; E:\workfiles\Help\Working\Output\Website\webfonts\fa-solid-900.ttf
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; E:\workfiles\Help\Working\Output\Website\webfonts\fa-solid-900.woff2
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; E:\workfiles\Help\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; E:\workfiles\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; E:\workfiles\Help\Working\Output\Website\GeneralError.html
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; E:\workfiles\Help\Working\Output\Website\index.html
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; E:\workfiles\Help\Working\Output\Website\PageNotFound.html
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; E:\workfiles\Help\Working\Output\Website\search.html
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; E:\workfiles\Help\Working\Output\Website\SearchHelp.aspx
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; E:\workfiles\Help\Working\Output\Website\SearchHelp.inc.php
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; E:\workfiles\Help\Working\Output\Website\SearchHelp.php
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; E:\workfiles\Help\Working\Output\Website\Web.Config
+    Last step completed in 00:00:00.0130
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:00.0600
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 249 files for the website content
+    Last step completed in 00:00:00.0698
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.0829
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 12/2/2023 11:58:27 AM.  Total time: 00:01:07.2188
+
+</buildStep>
+</shfbBuild>
