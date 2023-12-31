@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.7.8.0" projectFile="E:\workfiles\MbcsUtils_Documentation\MbcsUtils_Documentation.shfbproj" started="12/2/2023 6:22:22 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.7.8.0" projectFile="E:\workfiles\MbcsCentral_Documentation\MbcsCentral_Documentation.shfbproj" started="12/5/2023 9:37:24 AM">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
-    E:\workfiles\MbcsUtils_Documentation
+    E:\workfiles\MbcsCentral_Documentation
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
     E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
 Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
@@ -16,66 +16,159 @@ Clearing any prior web/markdown output...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: E:\workfiles\MbcsUtils\MbcsUtils\MbcsUtils.vbproj
-    Found project &#39;E:\workfiles\MbcsUtils\MbcsUtils\MbcsUtils.vbproj&#39;
+Source: E:\workfiles\MbcsCentral_C\MbcsCentral\MbcsCentral.csproj
+    Found project &#39;E:\workfiles\MbcsCentral_C\MbcsCentral\MbcsCentral.csproj&#39;
 
 Parsing project files
-    Found assembly &#39;E:\workfiles\MbcsUtils\MbcsUtils\bin\Debug\MbcsUtils.dll&#39; (.NETFramework 4.8)
+    Found assembly &#39;E:\workfiles\MbcsCentral_C\MbcsCentral\bin\Debug\MbcsCentral.exe&#39; (.NETFramework 4.8)
 SHFB: Warning BE0007: A project with a different or higher framework version was found.  Changing project FrameworkVersion property from &#39;.NET Framework 4.7.2&#39; to &#39;.NET Framework 4.8&#39; for the build.
 
 References to include:
-    MbcsUtils
+    Caliburn.Micro
+    Caliburn.Micro.Platform
+    ChilkatDotNet46, Version=9.5.0.52, Culture=neutral, PublicKeyToken=eb5fc1fc52ef09bd, processorArchitecture=x86
+    ColorFont
+    CSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86
+    DirectoryInfoEx
+    DropNet
+    DumpExtensions, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL
+    Email.Net, Version=1.0.0.33423, Culture=neutral, processorArchitecture=MSIL
+    ExifLib
+    GemBox.Document, Version=27.3.30.1043, Culture=neutral, PublicKeyToken=b1b72c69714d4847, processorArchitecture=MSIL
+    IllusoryStudios.Wpf.LostControls, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL
+    MBCS.ControlLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86
+    MbcsCentral, Version=2.0.1.15, Culture=neutral, PublicKeyToken=null
+    MbcsMail, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86
+    MbcsScanAquire
+    MBCSsmtp
+    MbcsUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL
+    MbcsUtils_C
+    MbcsWpfControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86
+    MetroLog.Platform
+    Microsoft.Data.ConnectionUI, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    Microsoft.Data.ConnectionUI.Dialog, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    Microsoft.Data.ConnectionUI.Sample.VB, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86
+    Microsoft.Data.Edm, Version=5.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    Microsoft.Data.OData, Version=5.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    Microsoft.Data.Services.Client, Version=5.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL
+    Microsoft.Office.Interop.Outlook, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL
+    Microsoft.SqlServer.ConnectionInfo, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL
+    Microsoft.SqlServer.Management.Sdk.Sfc, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL
+    Microsoft.SqlServer.Smo, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL
+    Microsoft.SqlServer.SmoExtended, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL
+    Microsoft.SqlServer.SqlEnum, Version=14.100.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL
+    Microsoft.SqlServer.TransactSql.ScriptDom, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL
+    Microsoft.Synchronization, Version=2.1.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL
+    Microsoft.Synchronization.Data, Version=3.1.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL
+    Microsoft.Synchronization.Data.Server, Version=3.1.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL
+    Microsoft.Synchronization.Data.SqlServerCe, Version=3.1.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL
+    Microsoft.Threading.Tasks
+    Microsoft.Threading.Tasks.Extensions
+    Microsoft.Win32.TaskScheduler, Version=2.4.0.0, Culture=neutral, PublicKeyToken=0d013ddd5178a2ae, processorArchitecture=MSIL
+    MigraDoc.DocumentObjectModel
+    MigraDoc.Rendering
+    Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL
+    NLog
+    ObjectDumper, Version=1.0.0.12, Culture=neutral, PublicKeyToken=9e2fabf3af85dba9, processorArchitecture=MSIL
+    Pdf2Image
+    PdfSharp.Xps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=x86
+    PdfSharp-WPF
+    PresentationUI, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    Quartz
+    QueryBuilder
+    RestSharp
+    Spire.License
+    Spire.Pdf
+    System.Net.Http.Extensions
+    System.Net.Http.Primitives
+    System.Net.Json
+    System.Spatial, Version=5.8.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    VIBlend.WPF.Editors, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5f568d4f9cd901f1, processorArchitecture=MSIL
+    Vintasoft.Twain, Version=10.3.2.1, Culture=neutral, PublicKeyToken=153caf29a10d2e31, processorArchitecture=x86
+    WpfBindingErrors, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL
+    WPFMessageBox
+    Xceed.Wpf.AvalonDock.Themes.Aero, Version=2.0.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL
+    Xceed.Wpf.AvalonDock.Themes.Metro, Version=2.0.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL
+    Xceed.Wpf.AvalonDock.Themes.VS2010, Version=2.0.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL
+    Xceed.Wpf.DataGrid, Version=2.0.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL
+    Xceed.Wpf.Toolkit, Version=2.0.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL
+    Zlib.Portable
 
 Copying XML comments files
-    E:\workfiles\MbcsUtils\MbcsUtils\bin\Debug\MbcsUtils.xml -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\MbcsUtils.xml
+    E:\workfiles\MbcsCentral_C\MbcsCentral\bin\Debug\MbcsCentral.xml -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\MbcsCentral.xml
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
-    Last step completed in 00:00:00.0100
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0110
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-845423f5-0c1f-4023-8296-4a96ddf11eb5.proj]
-Build started 12/2/2023 6:22:23 AM.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-0591d016-6e01-46eb-a20d-c6c4b08e49da.proj]
+Build started 12/5/2023 9:37:26 AM.
 
-Project &quot;E:\workfiles\MbcsUtils_Documentation\Help\Working\GenerateRefInfo-845423f5-0c1f-4023-8296-4a96ddf11eb5.proj&quot; on node 1 (default targets).
+Project &quot;E:\workfiles\MbcsCentral_Documentation\Help\Working\GenerateRefInfo-0591d016-6e01-46eb-a20d-c6c4b08e49da.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
   Microsoft.Build (v17.7.2+d6990bcfaf520c0d215a194fad0617f7efad68b4)
   c Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
-  Loaded 1 assemblies for reflection and 2 dependency assemblies.
-  Wrote information on 1 namespaces, 6 types, and 65 members
+  Loaded 1 assemblies for reflection and 155 dependency assemblies.
+  Wrote information on 23 namespaces, 560 types, and 16231 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;E:\workfiles\MbcsUtils_Documentation\Help\Working\GenerateRefInfo-845423f5-0c1f-4023-8296-4a96ddf11eb5.proj&quot; (default targets).
-    Last step completed in 00:00:00.4144
+Done Building Project &quot;E:\workfiles\MbcsCentral_Documentation\Help\Working\GenerateRefInfo-0591d016-6e01-46eb-a20d-c6c4b08e49da.proj&quot; (default targets).
+    Last step completed in 00:00:02.5009
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.0092
+    Last step completed in 00:00:03.3799
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00.0110
+    Last step completed in 00:00:01.8346
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.0110
+    Last step completed in 00:00:01.6853
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0171
+    Last step completed in 00:00:01.1497
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Checking for token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+    E:\workfiles\MbcsCentral_Documentation\icons\Bitmap.bmp -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\media\Bitmap.bmp
+Generating conceptual topic files
+    Parsing topic file &#39;E:\workfiles\MbcsCentral_Documentation\Content\Welcome.aml&#39;
+    E:\workfiles\MbcsCentral_Documentation\Content\Welcome.aml -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\ddueXml\b75aa289-6b32-4eff-a256-8c84ae13447e.xml
+    Parsing topic file &#39;E:\workfiles\MbcsCentral_Documentation\Content\VersionHistory\VersionHistory.aml&#39;
+    E:\workfiles\MbcsCentral_Documentation\Content\VersionHistory\VersionHistory.aml -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\ddueXml\d29f6881-0487-4cdd-b7ba-3f7048a982d8.xml
+    Parsing topic file &#39;E:\workfiles\MbcsCentral_Documentation\Content\VersionHistory\v1.0.0.0.aml&#39;
+    E:\workfiles\MbcsCentral_Documentation\Content\VersionHistory\v1.0.0.0.aml -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\ddueXml\2f11d8e9-7ef5-446e-a461-b2cfdfac6f7b.xml
+    Last step completed in 00:00:00.3195
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into reference topic manifest file
+    Last step completed in 00:00:00.0142
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
-No additional content to copy
-    Last step completed in 00:00:00.0010
+E:\workfiles\MbcsCentral_Documentation\Content\Html Page.html -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\Content\Html Page.html
+E:\workfiles\MbcsCentral_Documentation\icons\Help.png -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\icons\Help.png
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -84,22 +177,23 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0113
+    Last step completed in 00:00:01.0279
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.4648
+    Last step completed in 00:00:00.6724
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0044
+    Last step completed in 00:00:00.0440
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-E:\workfiles\MbcsUtils_Documentation\Help\Working\BuildAssembler.config
+E:\workfiles\MbcsCentral_Documentation\Help\Working\BuildAssembler.config
   Updating reference topic configurations.
-  No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0106
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -107,116 +201,223 @@ Building help topics...
 Loading TOC info and adding unique IDs to parent nodes
 </plugIn>Loading configuration...
 Processing topics...
-SHFB: Warning BE0066: ShowMissingComponent: [N:MbcsUtils] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.DictUtils.#ctor(System.String,System.Collections.Generic.Dictionary{System.String,System.String})] Missing &lt;param name=&quot;fileName&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.DictUtils.#ctor(System.String,System.Collections.Generic.Dictionary{System.String,System.String})] Missing &lt;param name=&quot;dict&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.DictUtils.getItemsByPattern(System.String)] Missing &lt;param name=&quot;pattern&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsUtils.LogClass.AzureConnectionKey] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsUtils.LogClass.Client] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsUtils.LogClass.EventLog] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsUtils.LogClass.EventSource] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:MbcsUtils.Parameters] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.#ctor(System.String)] Missing &lt;param name=&quot;filename&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.#ctor(System.String,System.Collections.Generic.Dictionary{System.String,System.String})] Missing &lt;param name=&quot;filename&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.#ctor(System.String,System.Collections.Generic.Dictionary{System.String,System.String})] Missing &lt;param name=&quot;dict&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.addItem(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.addItem(System.String)] Missing &lt;param name=&quot;itm&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsUtils.Parameters.Filename] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.GetInt(System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.GetInt(System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.getItem(System.String,System.Object@)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.getItem(System.String,System.Object@)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.getItem(System.String,System.Object@)] Missing &lt;param name=&quot;itm&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.getParam(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.getParam(System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.getParam(System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.GetString(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.GetString(System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.GetString(System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.GetStrings(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.GetStrings(System.String)] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.GetStrings(System.String)] Missing &lt;param name=&quot;pattern&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.removeItem(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.removeItem(System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.removeItemStartsWith(System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.removeItemStartsWith(System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [P:MbcsUtils.Parameters.SessionOnly] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.setConfigs] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.setItem(System.String,System.String)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.setItem(System.String,System.String)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.setItem(System.String,System.String)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.setParam(System.String,System.Object)] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.setParam(System.String,System.Object)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.Parameters.setParam(System.String,System.Object)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [T:MbcsUtils.sessionItem] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.sessionItem.#ctor(System.String,System.Object)] Missing &lt;param name=&quot;key&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.sessionItem.#ctor(System.String,System.Object)] Missing &lt;param name=&quot;value&quot;/&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.sessionItem.getKey] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.sessionItem.getKey] Missing &lt;returns&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.sessionItem.getValue] Missing &lt;summary&gt; documentation
-SHFB: Warning BE0066: ShowMissingComponent: [M:MbcsUtils.sessionItem.getValue] Missing &lt;returns&gt; documentation
-Processed 78 topic(s)
-48 warning(s)
-CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
-CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:HelpFilters] Member ID URL resolver service failed.  No further look ups will be performed for this build.
+Reason: The remote server returned an error: (403) Forbidden.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.Field.#ctor(System.Windows.Controls.ContextMenu,ColorFont.FontInfo,System.Windows.Media.Brush,System.Double,System.Windows.Media.Brush,System.Boolean)] Unknown reference link target &#39;T:ColorFont.FontInfo&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:MbcsCentral.Field.fontInfo] Unknown reference link target &#39;T:ColorFont.FontInfo&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:MbcsCentral.Field.thisFont] Unknown reference link target &#39;T:ColorFont.FontInfo&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.frmDatabaseBackup.dtStartDate] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.DateTimePicker&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.frmDatabaseBackup.dtTimeOfDay] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.TimePicker&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.frmDocumentAquire._images] Unknown reference link target &#39;T:Vintasoft.Twain.AcquiredImageCollection&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.frmDocumentAquire.device_ImageAcquired(System.Object,Vintasoft.Twain.ImageAcquiredEventArgs)] Unknown reference link target &#39;T:Vintasoft.Twain.ImageAcquiredEventArgs&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.frmDocumentAquire.device_ImageAcquiringProgress(System.Object,Vintasoft.Twain.ImageAcquiringProgressEventArgs)] Unknown reference link target &#39;T:Vintasoft.Twain.ImageAcquiringProgressEventArgs&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.frmDocumentAquire.device_ScanFailed(System.Object,Vintasoft.Twain.ScanFailedEventArgs)] Unknown reference link target &#39;T:Vintasoft.Twain.ScanFailedEventArgs&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.frmDocumentAquire.deviceManager] Unknown reference link target &#39;T:Vintasoft.Twain.DeviceManager&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.frmDocumentAquire.ProcessImage(Vintasoft.Twain.Device)] Unknown reference link target &#39;T:Vintasoft.Twain.Device&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.frmDocumentAquire.SubscribeToDeviceEvents(Vintasoft.Twain.Device)] Unknown reference link target &#39;T:Vintasoft.Twain.Device&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.frmDocumentAquire.UnsubscribeFromDeviceEvents(Vintasoft.Twain.Device)] Unknown reference link target &#39;T:Vintasoft.Twain.Device&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.frmDocumentLayout.CurrentDefaultFont] Unknown reference link target &#39;T:ColorFont.FontInfo&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:MbcsCentral.frmDocumentLayout.DefaultFont] Unknown reference link target &#39;T:ColorFont.FontInfo&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.frmOwner.txtOwnerNumber] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.GlobalShared.CentralLog] Unknown reference link target &#39;T:MbcsUtils.LogClass&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.GlobalShared.Log] Unknown reference link target &#39;T:MbcsUtils.LogClass&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.HelperMethods.BitmapToPDF(System.Drawing.Bitmap)] Unknown reference link target &#39;T:PdfSharp.Pdf.PdfDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.MainWindow._busy] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.BusyIndicator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.Startup.mSession] Unknown reference link target &#39;T:MbcsUtils.Parameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.Startup.parms] Unknown reference link target &#39;T:MbcsUtils.Parameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:MbcsCentral.Email.frmEmailAttachment.Pdf] Unknown reference link target &#39;T:PdfSharp.Pdf.PdfDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.Email.Utils.SendEmailAsync(Chilkat.Task@,MbcsCentral.Email.SmtpConfig,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)] Unknown reference link target &#39;T:Chilkat.Task&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinGL.frmBankReconciliation.txtStatement] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinGL.frmCheckRegisterEdit.txtInvoice_1] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.MaskedTextBox&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinGL.frmCompany.txtCompanyNumber] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinGL.frmInvoiceList.clrPicker] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.ColorPicker&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinGL.frmVendors.CurrentYear] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinGL.frmVendors.PriorYear] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmAddTenant.txtFirstMonthRent] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmAddTenant.txtFullMonthRent] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmAddTenant.txtLegalRent] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmAddTenant.txtOldRent] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmAddTenant.txtSSNumber1] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.MaskedTextBox&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmAddTenant.txtSSNumber2] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.MaskedTextBox&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmBatches._busy] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.BusyIndicator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmImprovementEdit.CostTextBox] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmImprovementEdit.IncreaseAmount] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmImprovementEdit.RentIncreaseDate] Unknown reference link target &#39;T:MbcsWpfControls.DatePickerEx&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmLeaseLetter.config] Unknown reference link target &#39;T:MbcsUtils.DictUtils&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmLeaseLetter.txtCopies] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.IntegerUpDown&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmLeaseLetter.txtMaximumRent] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmLeaseLetter.txtMaximumYears] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmLeaseLetter.txtMinimum1] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmLeaseLetter.txtMinimum2] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmLeaseLetter.txtOneYear] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmLeaseLetter.txtSeniorCharge] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.MaskedTextBox&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmLeaseLetter.txtTwoYear] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmLeaseLetter.txtTwoYearYr1] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmNotices.txtAmount] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmNotices.txtLeftMargin] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmNotices.txtTopMargin] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmPaymentEntry.txtTotal] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmPreferredRent._busy] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.BusyIndicator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.WinPM.frmSecTrans.NumberEditor_ValueChanged1(System.Object,VIBlend.WPF.Controls.ValueChangedEditorEventArgs)] Unknown reference link target &#39;T:VIBlend.WPF.Controls.ValueChangedEditorEventArgs&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmStatusReport.config] Unknown reference link target &#39;T:MbcsUtils.DictUtils&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmStatusReport.txtCopies] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.IntegerUpDown&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmStatusReport.wait] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.BusyIndicator&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmStmtMessages.BuildingLocation] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmStmtMessages.GenLocation] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmStmtMessages.LglLocation] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmStmtMessages.TypeLocation] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.dtDhcrDateOne] Unknown reference link target &#39;T:MbcsWpfControls.DatePickerEx&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.dtDhcrDateTwo] Unknown reference link target &#39;T:MbcsWpfControls.DatePickerEx&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.dtLeaseExpires] Unknown reference link target &#39;T:MbcsWpfControls.DatePickerEx&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.dtLeaseStart] Unknown reference link target &#39;T:MbcsWpfControls.DatePickerEx&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.dtMoveIn] Unknown reference link target &#39;T:MbcsWpfControls.DatePickerEx&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.dtXrfExemptDate] Unknown reference link target &#39;T:MbcsWpfControls.DatePickerEx&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.dtXrfTestedDate] Unknown reference link target &#39;T:MbcsWpfControls.DatePickerEx&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.dtXrfWorkCompleteDate] Unknown reference link target &#39;T:MbcsWpfControls.DatePickerEx&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.LastLegalRegulatedRent] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.txtDCLegal] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.txtDhcrRentOne] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.txtDhcrRentTwo] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.txtDhcrTotalCostOne] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.txtDhcrTotalCostTwo] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.txtPaid] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.txtRentCurrent] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.txtRooms] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.txtSecurity] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.txtSquareFeet] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.txtSSNumber1] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.MaskedTextBox&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenant.txtSSNumber2] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.MaskedTextBox&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenantDocuments.config] Unknown reference link target &#39;T:MbcsUtils.DictUtils&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenantDocuments.txtCopies] Unknown reference link target &#39;T:Xceed.Wpf.Toolkit.IntegerUpDown&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenantLabels.dtLease] Unknown reference link target &#39;T:MbcsWpfControls.DatePickerEx&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenantLabels.MaxLabels] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmTenantLabels.MinimumArrears] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.frmVacate.txtRentAmount] Unknown reference link target &#39;T:VIBlend.WPF.Controls.NumberEditor&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.LeaseLetter.parms] Unknown reference link target &#39;T:MbcsUtils.Parameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.NewTenantDocumentsPrint.document] Unknown reference link target &#39;T:PdfSharp.Pdf.PdfDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.NewTenantDocumentsPrint.fnt] Unknown reference link target &#39;T:PdfSharp.Drawing.XFont&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.NewTenantDocumentsPrint.font] Unknown reference link target &#39;T:PdfSharp.Drawing.XFont&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.NewTenantDocumentsPrint.gfx] Unknown reference link target &#39;T:PdfSharp.Drawing.XGraphics&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.NewTenantDocumentsPrint.mainFont] Unknown reference link target &#39;T:PdfSharp.Drawing.XFont&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.NewTenantDocumentsPrint.page] Unknown reference link target &#39;T:PdfSharp.Pdf.PdfPage&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.NewTenantDocumentsPrint.parms] Unknown reference link target &#39;T:MbcsUtils.Parameters&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.NewTenantDocumentsPrint.pdf] Unknown reference link target &#39;T:Spire.Pdf.PdfDocument&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.NewTenantDocumentsPrint.pg] Unknown reference link target &#39;T:Spire.Pdf.PdfPageBase&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinPM.NewTenantDocumentsPrint.txtf] Unknown reference link target &#39;T:PdfSharp.Drawing.Layout.XTextFormatter&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.WinTrm.EmailMessage.#ctor(System.String,Chilkat.Email)] Unknown reference link target &#39;T:Chilkat.Email&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinTrm.EmailMessage._emailMessage] Unknown reference link target &#39;T:Chilkat.Email&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:MbcsCentral.WinTrm.EmailMessage.emailMessage] Unknown reference link target &#39;T:Chilkat.Email&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinTrm.GlobalShared.jobRemoteSched] Unknown reference link target &#39;T:Quartz.Impl.RemoteScheduler&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MbcsCentral.WinTrm.GlobalShared.jobSchedFactory] Unknown reference link target &#39;T:Quartz.Impl.StdSchedulerFactory&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.WinTrm.StringUtils.findIssueTag(Chilkat.Email)] Unknown reference link target &#39;T:Chilkat.Email&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.WinTrm.StringUtils.messageFormat(Chilkat.Email)] Unknown reference link target &#39;T:Chilkat.Email&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.WinTrm.StringUtils.saveEmail(Chilkat.Email,System.Int64)] Unknown reference link target &#39;T:Chilkat.Email&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:MbcsCentral.WinTrm.StringUtils.saveEmail(Chilkat.Email,System.Int64,System.String)] Unknown reference link target &#39;T:Chilkat.Email&#39;.
+Processed 18520 topic(s)
+111 warning(s)
+CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+ResolveArtLinksComponent: Copying media files...
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 7 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:15.5864
+</plugIn>    Last step completed in 00:02:45.1500
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\css\bulma.css
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\css\bulma.css.map
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\css\bulma.min.css
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\css\font-awesome.css
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\css\font-awesome.min.css
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\css\ja-JP.css
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\css\ko-KR.css
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\css\presentationStyle.css
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\css\vs.min.css
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\css\zh-CN.css
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\css\zh-TW.css
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\icons\favicon.ico
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\scripts\clipboard.min.js
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\scripts\highlight.min.js
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\scripts\presentationStyle.js
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\webfonts\fa-brands-400.ttf
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\webfonts\fa-brands-400.woff2
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\webfonts\fa-regular-400.ttf
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\webfonts\fa-regular-400.woff2
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\webfonts\fa-solid-900.ttf
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\webfonts\fa-solid-900.woff2
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\webfonts\fa-v4compatibility.ttf
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\GeneralError.html
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\index.html
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\PageNotFound.html
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\search.html
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\SearchHelp.aspx
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\SearchHelp.inc.php
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\SearchHelp.php
-E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; E:\workfiles\MbcsUtils_Documentation\Help\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.7485
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\css\bulma.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\css\bulma.css.map
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\css\bulma.min.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\css\font-awesome.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\css\font-awesome.min.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\css\ja-JP.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\css\ko-KR.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\css\presentationStyle.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\css\vs.min.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\css\zh-CN.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\css\zh-TW.css
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\icons\favicon.ico
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\scripts\clipboard.min.js
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\scripts\highlight.min.js
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\scripts\presentationStyle.js
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\webfonts\fa-brands-400.ttf
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\webfonts\fa-brands-400.woff2
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\webfonts\fa-regular-400.ttf
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\webfonts\fa-regular-400.woff2
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\webfonts\fa-solid-900.ttf
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\webfonts\fa-solid-900.woff2
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\GeneralError.html
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\index.html
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\PageNotFound.html
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\search.html
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\SearchHelp.aspx
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\SearchHelp.inc.php
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\SearchHelp.php
+E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; E:\workfiles\MbcsCentral_Documentation\Help\Working\Output\Website\Web.Config
+    Last step completed in 00:00:00.0202
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.1454
+    Last step completed in 00:00:06.5133
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 152 files for the website content
-    Last step completed in 00:00:00.0763
+Copied 500 files
+Copied 1000 files
+Copied 1500 files
+Copied 2000 files
+Copied 2500 files
+Copied 3000 files
+Copied 3500 files
+Copied 4000 files
+Copied 4500 files
+Copied 5000 files
+Copied 5500 files
+Copied 6000 files
+Copied 6500 files
+Copied 7000 files
+Copied 7500 files
+Copied 8000 files
+Copied 8500 files
+Copied 9000 files
+Copied 9500 files
+Copied 10000 files
+Copied 10500 files
+Copied 11000 files
+Copied 11500 files
+Copied 12000 files
+Copied 12500 files
+Copied 13000 files
+Copied 13500 files
+Copied 14000 files
+Copied 14500 files
+Copied 15000 files
+Copied 15500 files
+Copied 16000 files
+Copied 16500 files
+Copied 17000 files
+Copied 17500 files
+Copied 18000 files
+Copied 18500 files
+Copied 19000 files
+Copied 19500 files
+Copied 20000 files
+Copied 20500 files
+Copied 20770 files for the website content
+    Last step completed in 00:00:05.9373
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0064
+    Last step completed in 00:00:01.0692
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/2/2023 6:22:40 AM.  Total time: 00:00:17.7893
+Build completed successfully at 12/5/2023 9:40:37 AM.  Total time: 00:03:13.1044
 
 </buildStep>
 </shfbBuild>
